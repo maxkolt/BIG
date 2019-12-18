@@ -44,3 +44,29 @@ nav {
     display: flex;
     align-items: center;
 }
+
+
+
+#footer{ /* Блок подвала */
+    height:80px; /* Высота блока подвала */
+    background-color: #ffffff; /* Фон блока подвала */
+    margin-bottom: 10px; /* Отступ снизу */
+    border-radius: 5px; /* Закруглённые углы */
+    box-shadow: rgba(57, 194, 157, 0.5) 0px 1px 3px; /* Тень блока */
+}
+.clear{ /* Запрет наплывания. Устанавливается для того, чтобы блок контента, при заполнении текстом и изображениями не наплывал на подвал */
+    clear: both;
+}
+.fon{ /* Номер телефона */
+    float: right; /* Разрешаем другим элементам обтекать абзац справа */
+    margin:20px 0 0 20px;
+    padding-right: 35px;
+}
+.fax{ /* Номер факса */
+    float: right;
+    margin:20px 30px 30px 60px;
+}
+.mail{ /* Адрес E-mail */
+    float: right;
+    margin:20px 0 0 60px;
+}
