@@ -14,6 +14,7 @@ header {
     flex-wrap: wrap;
     background-color: #8985c2;
     padding: 20px 10px;
+    border-radius: 7px;
 }
 
 .wrap-logo {
@@ -44,29 +45,47 @@ nav {
     display: flex;
     align-items: center;
 }
-
+#content{ /* Блок контента */
+    margin-bottom: auto; /* Отступ блока статьи от блока подвала */
+    width: 676px; /* Ширина статьи */
+    padding: 50px; /* Отступ текста от краёв блока */
+    background: #fffac1; /* Фон статьи */
+    border-radius: 5px;
+    box-shadow: rgba(11, 8, 20, 0.5) 0px 1px 3px;
+}
+.left{ /* Картинка в тексте слева */
+    float: left;
+    margin: 30px 7px 7px 7px;
+}
+.right{ /* Картинка в тексте справа */
+    float: right;
+    margin: 7px 0 7px 7px;
+}
 
 
 #footer{ /* Блок подвала */
     height:80px; /* Высота блока подвала */
-    background-color: #ffffff; /* Фон блока подвала */
+    background-color: #8985c2; /* Фон блока подвала */
     margin-bottom: 10px; /* Отступ снизу */
-    border-radius: 5px; /* Закруглённые углы */
-    box-shadow: rgba(57, 194, 157, 0.5) 0px 1px 3px; /* Тень блока */
+    border-radius: 7px; /* Закруглённые углы */
+    box-shadow: rgba(11, 8, 20, 0.5) 0px 1px 3px; /* Тень блока */
 }
 .clear{ /* Запрет наплывания. Устанавливается для того, чтобы блок контента, при заполнении текстом и изображениями не наплывал на подвал */
     clear: both;
 }
 .fon{ /* Номер телефона */
-    float: right; /* Разрешаем другим элементам обтекать абзац справа */
+    float: left; /* Разрешаем другим элементам обтекать абзац справа */
     margin:20px 0 0 20px;
-    padding-right: 35px;
+    padding-left : 35px;
 }
 .fax{ /* Номер факса */
-    float: right;
-    margin:20px 30px 30px 60px;
+    float: left;
+    margin:20px 30px 30px 80px;
 }
-.mail{ /* Адрес E-mail */
-    float: right;
-    margin:20px 0 0 60px;
+.mail { /* Адрес E-mail */
+    float: left;
+    margin: 20px 0 0 60px;
 }
+
+
+
