@@ -49,8 +49,8 @@ nav {
 
 #sidebar{ /* Блок сайдбара */
     background-color: #ffffff; /* Фон блока */
-    width: 280px; /* Ширина блока */
-    height: auto;
+    width: 250px; /* Ширина блока */
+    height: 930px;
     padding: 10px; /* Отступ текста от краёв */
     float: right; /* Размещаем блок справа от других элементов, наплывание или обтекание справа). Если делать сайдбар слева, то значение right меняем на left */
     border-radius: 5px; /* Закругляем углы блока */
@@ -63,7 +63,7 @@ nav {
 #content{ /* Блок контента */
     margin-bottom: auto; /* Отступ блока статьи от блока подвала */
     width: 676px; /* Ширина статьи */
-    padding: 50px; /* Отступ текста от краёв блока */
+    padding: 70px; /* Отступ текста от краёв блока */
     background: #fffac1; /* Фон статьи */
     border-radius: 5px;
     box-shadow: rgba(11, 8, 20, 0.5) 0px 1px 3px;
@@ -81,7 +81,7 @@ nav {
 #footer{ /* Блок подвала */
     height:80px; /* Высота блока подвала */
     background-color: #8985c2; /* Фон блока подвала */
-    margin-bottom: 10px; /* Отступ снизу */
+    margin-bottom: auto; /* Отступ снизу */
     border-radius: 7px; /* Закруглённые углы */
     box-shadow: rgba(11, 8, 20, 0.5) 0px 1px 3px; /* Тень блока */
 }
