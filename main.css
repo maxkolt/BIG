@@ -8,13 +8,10 @@
     border: 4px double black;
 }
 .dropdown{
+    margin-left: 40%;
     padding-top: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 60px;
 }
-form{
+form {
     padding-top: 50px;
-}
-div .dropdown{
-    align-items: center;
-
 }
