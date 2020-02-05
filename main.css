@@ -7,3 +7,14 @@
 .border {
     border: 4px double black;
 }
+.dropdown{
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+form{
+    padding-top: 50px;
+}
+div .dropdown{
+    align-items: center;
+
+}
