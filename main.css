@@ -32,3 +32,12 @@ div.col-4{
     margin: 0 15px 15px 0;
     margin-left: 27px;
 }
+
+header{
+    height: 50px;
+    padding-top: 5px;
+background-color: coral;
+}
+
+
+
