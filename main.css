@@ -1,17 +1,34 @@
-.blue {
+/*.blue {
     background-color: brown;
    padding-top: 10px;
     padding-bottom: 10px;
 }
-
-.border {
+*/
+/*.border {
     border: 4px double black;
 }
-.dropdown{
+
+ */
+/*.dropdown{
     margin-left: 40%;
     padding-top: 10px;
     padding-bottom: 60px;
 }
+
+ */
 form {
     padding-top: 50px;
+}
+.nav-item{
+    padding-left: 20px ;
+}
+
+
+.card-body{
+    text-align: center;
+}
+div.col-4{
+    display: inline-flex;
+    margin: 0 15px 15px 0;
+    margin-left: 27px;
 }

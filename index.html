@@ -14,109 +14,75 @@
 
 
 <header class="blue">
-    <nav class="container">
-        <div class="row">
-            <a class="col-sm" href="#home">Главная</a>
-            <a class="col-sm" href="#contact">Контакты</a>
-            <a class="col-sm" href="#about">О нас</a>
-        </div>
-    </nav>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">МАСТЕР|НОЖ</a>
+        </li>
+        <li class="raz">
+        <li class="nav-item">
+            <a class="nav-link" href="#">ГЛАВНАЯ</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">О НАС</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+               aria-expanded="false">МЕНЮ</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Услуги</a>
+                <a class="dropdown-item" href="#">Цены</a>
+                <a class="dropdown-item" href="#">Галерея</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Способы оплаты</a>
+            </div>
+        </li>
+        </li>
+    </ul>
 </header>
+
 
 <body>
 <main>
-    <section class="container">
-        <div class="row">
-            <div class="col-4 border">
-                <blockquote class="blockquote">
-                    <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a
-                        ante.</p>
-                    <footer class="blockquote-footer">Кто-то знаменитый в <cite title="Название источника">Source
-                        Title</cite></footer>
-                </blockquote>
-            </div>
-            <section class="col-4 border">
-                <table class="table">
-                    <thead>
-                    <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Имя</th>
-                        <th scope="col">Фамилия</th>
-                        <th scope="col">Username</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
-                        <td>@fat</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
-                        <td>@twitter</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </section>
-            <div class="col-4 border">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Название карточки</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Переход куда-нибудь</a>
-                    </div>
-                </div>
-            </div>
+
+    <section class="card mb-3">
+        <div class="card-body">
+            <h2 class="card-title">Название карточки</h2>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                content. This content is a little bit longer.</p>
+            <img src="img/6c1856cb13e70a805811a615be35a3a7_resize.jpg" class="card-img-top" height="350"
+                 width="50"/>
         </div>
     </section>
-    </div>
 
-    <div class="jumbotron">
-        <h1 class="display-4">Привет, мир!</h1>
-        <p class="lead">Это простой пример блока с компонентом в стиле jumbotron для привлечения дополнительного внимания к содержанию или информации.</p>
-        <hr class="my-4">
-        <p>Использются служебные классы для типографики и расстояния содержимого в контейнере большего размера.</p>
-        <p class="lead">
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-        </p>
-    </div>
 
-    <div class="dropdown">
-        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Выпадающая ссылка
-        </a>
-
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+    <div class="card text-white bg-secondary col-4" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+            <h5 class="card-title">Secondary card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
     </div>
-
-    <form>
-        <div class="form-group row">
-            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-            <div class="col-sm-10">
-                <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
-            </div>
+    <div class="card text-white bg-success col-4" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+            <h5 class="card-title">Success card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
-        <div class="form-group row">
-            <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
-            <div class="col-sm-10">
-                <input type="password" class="form-control" id="inputPassword">
-            </div>
+    </div>
+    <div class="card text-white bg-danger col-4" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+            <h5 class="card-title">Danger card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
-    </form>
+    </div>
+      <div class="card text-white bg-info col-4" style="max-width: 18rem;">
+        <div class="card-header">Header</div>
+        <div class="card-body">
+            <h5 class="card-title">Info card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+    </div>
 
 </main>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
