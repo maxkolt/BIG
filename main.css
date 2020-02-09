@@ -1,33 +1,7 @@
 header {
-    text-align: right;
-}
-
-form {
-    padding-top: 0;
-}
-
-.nav-item {
-    padding-left: 0;
-}
-
-.card-body {
-    text-align: center;
-}
-
-div .col-3 {
-    display: inline-flex;
-    margin: 0 15px 15px 0;
-    margin-left: 27px;
-}
-
-header {
     height: 50px;
     padding-top: 0px;
     background-color: coral;
+    text-align: right;
 }
-
-img {
-    padding-left: 20px;
-}
-
 
