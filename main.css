@@ -1,44 +1,30 @@
-/*.blue {
-    background-color: brown;
-   padding-top: 10px;
-    padding-bottom: 10px;
-}
-*/
-/*.border {
-    border: 4px double black;
-}
+/* TODO - все стили нужны? */
 
- */
-/*.dropdown{
-    margin-left: 40%;
-    padding-top: 10px;
-    padding-bottom: 60px;
-}
-
- */
 form {
     padding-top: 0;
 }
-.nav-item{
-    padding-left: 0 ;
+
+.nav-item {
+    padding-left: 0;
 }
 
-
-.card-body{
+.card-body {
     text-align: center;
 }
-div.col-4{
+
+div.col-4 {
     display: inline-flex;
     margin: 0 15px 15px 0;
     margin-left: 27px;
 }
 
-header{
+header {
     height: 50px;
     padding-top: 0px;
-background-color: coral;
+    background-color: coral;
 }
-img{
+
+img {
     padding-left: 20px;
 }
 
