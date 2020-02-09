@@ -13,29 +13,26 @@
 </head>
 
 <header>
-<!--    TODO - добавить атрибут alt-->
-    <img src="img/мясник-точить-экран-ножа-38825185.jpg" height="50" width="70"/>
+    <a href="#"><img src="img/мясник-точить-экран-ножа-38825185.jpg" alt="мастернож" height="50" width="70"/></a>
 
-<!-- TODO - Обернуть в тег-контейнер row для всех кнопок [button] : <??? class="???">   -->
-    <button type="button" class="btn btn-primary">Главный</button>
-    <button type="button" class="btn btn-secondary">Вторичный</button>
-    <button type="button" class="btn btn-success">Успех</button>
-    <button type="button" class="btn btn-danger">Опасность</button>
-
-<!--    TODO: что это? Почему этого не видно в браузере, а коде есть?-->
-    <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="index.html">ГЛАВНАЯ</a></li>
-        <li>
-            <button type="button" class="btn btn-primary">Главный</button>
-        </li>
-        <li><a href="services.html">СЕРВИС</a></li>
-        <li><a href="works.html">УСЛУГИ</a></li>
-    </ul>
+    <section class="row button">
+        <button type="button" class="btn btn-primary">Главный</button>
+    </section>
+    <section class="row button">
+        <button type="button" class="btn btn-secondary">Вторичный</button>
+    </section>
+    <section class="row button">
+        <button type="button" class="btn btn-success">Успех</button>
+    </section>
+    <section class="row button">
+        <button type="button" class="btn btn-danger">Опасность</button>
+    </section>
 
 </header>
 
 <body>
 <main>
+
     <section class="card mb-3">
         <div class="card-body">
             <h2 class="card-title">Название карточки</h2>
@@ -46,41 +43,49 @@
         </div>
     </section>
 
-    <!--TODO - 1. Зачем здесь инлайновый стиль?  Удалить из тега: style="max-width: 18rem;"
-               2. Обернуть в тег-контейнер для всех [card] : <section class="row ???">
-     -->
-    <div class="card text-white bg-secondary col-4" style="max-width: 18rem;">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-            <h5 class="card-title">Secondary card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+    <section class="row card">
+        <div class="card text-white bg-secondary col-3">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Secondary card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+            </div>
         </div>
-    </div>
-    <div class="card text-white bg-success col-4" style="max-width: 18rem;">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-            <h5 class="card-title">Success card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+    </section>
+
+    <section class="row card">
+        <div class="card text-white bg-success col-3">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Success card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's
+                    content.</p>
+            </div>
         </div>
-    </div>
-    <div class="card text-white bg-danger col-4" style="max-width: 18rem;">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-            <h5 class="card-title">Danger card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+    </section>
+    <section class="row card">
+        <div class="card text-white bg-danger col-3">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Danger card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
         </div>
-    </div>
-    <div class="card text-white bg-info col-4" style="max-width: 18rem;">
-        <div class="card-header">Header</div>
-        <div class="card-body">
-            <h5 class="card-title">Info card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
-                content.</p>
+    </section>
+    <section class="row card">
+        <div class="card text-white bg-info col-3">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+                <h5 class="card-title">Info card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+            </div>
         </div>
-    </div>
+    </section>
 </main>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
