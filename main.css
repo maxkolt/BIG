@@ -1,13 +1,8 @@
-header {
-    width: 100%;
-    height: 100%;
-
+.navbar {
+    /*TODO - !important (лучше использовать как можнно меньше)*/
+    font-size: 1.1em;
 }
 
-.navbar-nav li {
-    padding-right: 10px;
-}
-
-.nav-link {
-    font-size: 1.1em !important;
+.logo {
+    border-radius: 50%;
 }
