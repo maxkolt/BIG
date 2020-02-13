@@ -6,3 +6,42 @@
 .logo {
     border-radius: 50%;
 }
+
+.content {
+    padding-top: 10px;
+}
+
+.blue {
+    background: #5b5b5b;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.row {
+    padding-top: 30px;
+}
+
+.blue p {
+    color: white;
+}
+
+.content p {
+    text-align: center;
+}
+
+.content h4 {
+    text-align: center;
+}
+
+.blue h4 {
+    color: white;
+    font-weight: 700;
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.card-body {
+    text-align: center;
+}
