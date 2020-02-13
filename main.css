@@ -1,9 +1,10 @@
 .navbar {
-    /*TODO - !important (лучше использовать как можнно меньше)*/
-    font-size: 1.1em;
+       font-size: 1.1em;
 }
 
 .logo {
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 
@@ -23,6 +24,7 @@
 
 .blue p {
     color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 .content p {
@@ -36,12 +38,26 @@
 .blue h4 {
     color: white;
     font-weight: 700;
+    font-family: 'Ubuntu Condensed', sans-serif;
+
 }
 
 .container {
     padding-top: 50px;
+    font-family: 'Marck Script', cursive;
+    font-size: 150%;
 }
 
 .card-body {
     text-align: center;
+}
+
+.card-body img {
+    height: 500px;
+    width: 800px;
+}
+
+.row img {
+    height: 426px;
+    width: 300px;
 }
