@@ -18,28 +18,28 @@
     padding-bottom: 35px;
 }
 
+/* TODO: ты дополняешь/переопределяешь существующий класс в bootstrap - лучше свои классы называть по своему,
+     чтобы избегать конфликтов имен */
 .row {
     padding-top: 30px;
 }
 
-.blue p {
-    color: white;
-    font-family: 'Ubuntu Condensed', sans-serif;
-}
+/* TODO: Нужно выделаять в классы общие правила, чтобы не повторяться*/
+.content p  {text-align: center;}
+.content h4 {text-align: center;}
 
-.content p {
-    text-align: center;
-}
-
-.content h4 {
-    text-align: center;
-}
-
+/* TODO: Нужно выделаять в классы общие правила. Множественные селекторы лучше не использовать.
+    На любой чих - класс.
+    font-family: 'Ubuntu Condensed', sans-serif
+    */
 .blue h4 {
     color: white;
     font-weight: 700;
     font-family: 'Ubuntu Condensed', sans-serif;
-
+}
+.blue p {
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 .container {
