@@ -61,3 +61,10 @@
     height: 426px;
     width: 300px;
 }
+
+hr {
+    border: none;
+    color: brown;
+    background-color: brown;
+    height: 1px;
+}
