@@ -14,19 +14,15 @@
 
 .grey {
     background: grey;
-    /*Сокращенная запись */
-    padding: 35px 0 35px 0;
-    /*
-    Длинная запись:
     padding-top: 35px;
     padding-bottom: 35px;
-    */
+
 }
 
 /* TODO: ты дополняешь/переопределяешь существующий класс в bootstrap - лучше свои классы называть по своему,
      чтобы избегать конфликтов имен
      ( например .rowPaddingTop)
- */
+*/
 .row {
     padding-top: 30px;
 }
@@ -48,6 +44,7 @@
     padding-top: 50px;
     font-family: 'Marck Script', cursive;
     font-size: 150%;
+
 }
 /* TODO:
         ты дополняешь/переопределяешь существующий класс в bootstrap (content)
@@ -57,20 +54,12 @@
     padding-top: 10px;
 }
 
-/* TODO: Нужно выделаять в классы общие правила.
-    Множественные селекторы лучше не использовать. На любой чих - класс.
-          ___например___:
-                         .myFont {
-                             color: white;
-                             font-family: 'Ubuntu Condensed', sans-serif
-                        }
-                        .font700 {
-                             font-weight: 700;
-                        }
-    */
-.blue h4 {
+
+.myFont {
     color: white;
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif
+}
+.font700 {
     font-weight: 700;
 }
 /* TODO: Нужно выделаять в классы общие правила. */
