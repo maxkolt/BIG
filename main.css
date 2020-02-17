@@ -1,4 +1,3 @@
-* {...}
 
 .navbar {
        font-size: 1.1em;
@@ -26,9 +25,9 @@
     padding-top: 30px;
 }
 
-/* TODO: Нужно выделаять в классы общие правила, чтобы не повторяться*/
-.content p  {text-align: center;}
-.content h4 {text-align: center;}
+
+.alignCenter {text-align: center;}
+
 
 /* TODO: Нужно выделаять в классы общие правила. Множественные селекторы лучше не использовать.
     На любой чих - класс.
@@ -50,9 +49,6 @@
     font-size: 150%;
 }
 
-.card-body {
-    text-align: center;
-}
 
 .card-body img {
     height: 500px;
