@@ -50,6 +50,7 @@
     font-size: 150%;
 
 }
+
 /* TODO:
         ты дополняешь/переопределяешь существующий класс в bootstrap (content)
         лучше свои классы называть по своему, чтобы избегать конфликтов имен
@@ -63,9 +64,11 @@
     color: white;
     font-family: 'Ubuntu Condensed', sans-serif
 }
+
 .font700 {
     font-weight: 700;
 }
+
 /* TODO: Нужно выделаять в классы общие правила. */
 .blue p {
     color: white;
@@ -77,11 +80,13 @@
     height: 500px;
     width: 800px;
 }
+
 /* TODO: Нужно выделаять в классы общие правила. */
 .row img {
     height: 426px;
     width: 300px;
 }
+
 /* TODO: Нужно выделаять в классы общие правила. */
 hr {
     border: none;
@@ -90,23 +95,30 @@ hr {
     height: 1px;
 }
 
+/*TODO: класс сотрудник sotrudnik применяется к заголовку. Причем тут сотрудник? */
 .sotrudnik {
     margin-top: 30px;
 }
+
 .alignRight {
+    /*TODO: Зачем? */
     box-sizing: border-box;
+    /*TODO: Зачем? */
     display: inline-block;
+    /*TODO: Зачем? */
     float: right;
+    /* TODO: margin-top: -300px - это неправильно здесь, удали */
     margin-top: -300px;
-     margin-right: 50px;
+    margin-right: 50px;
 }
 
 .opisanie {
     box-sizing: border-box;
     display: inline-block;
+    /*TODO: float: left - бесполезное свойство*/
     float: left;
+    /* TODO: padding-right - это неправильно здесь, удали */
     padding-right: 400px;
     margin-left: 50px;
     padding-top: 110px;
-
 }
