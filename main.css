@@ -94,17 +94,19 @@ hr {
     margin-top: 30px;
 }
 .alignRight {
+    box-sizing: border-box;
     display: inline-block;
     float: right;
-    margin-top: -200px;
+    margin-top: -300px;
      margin-right: 50px;
 }
 
 .opisanie {
+    box-sizing: border-box;
     display: inline-block;
     float: left;
     padding-right: 400px;
-    margin-left: 20px;
-    padding-top: 50px;
+    margin-left: 50px;
+    padding-top: 110px;
 
 }
