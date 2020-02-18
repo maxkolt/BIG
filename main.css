@@ -94,11 +94,17 @@ hr {
     margin-top: 30px;
 }
 .alignRight {
-    display: inline;
+    display: inline-block;
     float: right;
-    margin-right: 50px;
-    margin-top: 50px;
+    margin-top: -200px;
+     margin-right: 50px;
 }
+
 .opisanie {
-    text-align: left;
+    display: inline-block;
+    float: left;
+    padding-right: 400px;
+    margin-left: 20px;
+    padding-top: 50px;
+
 }
