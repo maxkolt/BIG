@@ -1,3 +1,7 @@
+.color {
+    background-color: cornflowerblue;
+}
+
 .navbar {
     font-size: 1.1em;
 }
@@ -84,4 +88,17 @@ hr {
     color: brown;
     background-color: brown;
     height: 1px;
+}
+
+.sotrudnik {
+    margin-top: 30px;
+}
+.alignRight {
+    display: inline;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.opisanie {
+    text-align: left;
 }
