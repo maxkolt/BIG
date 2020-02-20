@@ -95,17 +95,13 @@ hr {
     height: 1px;
 }
 
-/*TODO: класс сотрудник sotrudnik применяется к заголовку. Причем тут сотрудник? */
+
 .sotrudnik {
     margin-top: 30px;
 }
 
 .alignRight {
-    /*TODO: Зачем? */
-    box-sizing: border-box;
-    /*TODO: Зачем? */
     display: inline-block;
-    /*TODO: Зачем? */
     float: right;
     /* TODO: margin-top: -300px - это неправильно здесь, удали */
     margin-top: -300px;
@@ -113,11 +109,7 @@ hr {
 }
 
 .opisanie {
-    box-sizing: border-box;
     display: inline-block;
-    /*TODO: float: left - бесполезное свойство*/
-    float: left;
-    /* TODO: padding-right - это неправильно здесь, удали */
     padding-right: 400px;
     margin-left: 50px;
     padding-top: 110px;
