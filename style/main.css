@@ -71,14 +71,10 @@
 }
 
 
-
-
 /* TODO:
     Вынести CSS для about.html в отдельный файл about.css (не забыть его подключить в  about.html
         пример:    <link rel="stylesheet" href="../style/about.css">
 */
-
-
 
 
 /* TODO: Нужно выделаять в классы общие правила. */
