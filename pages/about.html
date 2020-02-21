@@ -1,6 +1,4 @@
 <!DOCTYPE html>
-<!--TODO - что за xmlns="http://www.w3.org/1999/html" ???-->
-<html xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap&subset=cyrillic" rel="stylesheet">
@@ -42,11 +40,11 @@
 
 <body class="color">
 <main>
-<!--    TODO - помести заголовок внутрь блока section-->
-    <h1 class="sotrudnik alignCenter">ЛУЧШИЕ СОТРУДНИКИ</h1>
+
+
 <!--TODO - класс opisanie сюда (всегда стараемся поднять класс на максимально высокий уровень)-->
-    <section class="">
-        <!--TODO - класс opisanie отсюда-->
+    <section>
+        <h1 class="sotrudnik alignCenter">ЛУЧШИЕ СОТРУДНИКИ</h1>
         <p class="opisanie">
             Дорогая коллега! Спасибо тебе за неравнодушие, отзывчивость и твою доброту. Ты как ни
             другой умеешь понимать других. А твоя чуткая душа способна сопереживать любой проблеме! Спасибо тебе
@@ -64,13 +62,10 @@
             за
             самые лучшие эмоции, которые я и весь коллектив получаем, работая с тобой
         </p>
-        <!--TODO - лишний пробел в конце классов-->
-        <div class="card alignRight " style="width: 16rem; ">
-            <!--TODO - height/width всегда стараемся выносить из html в css классы. Почитай про Отзывчивые изображения:
-                                                      https://bootstrap-4.ru/docs/4.4/content/images/#responsive-images-->
-            <img src="../img/aktrisa11.jpg" height="180" width="180" class="card-img-top" alt="..."/>
+
+        <div class="card alignRight" style="width: 16rem;">
+            <img class="photon" src="../img/aktrisa11.jpg" alt="..."/>
             <div class="card-body">
-<!--                TODO: Выравнивание текста bootstrap: https://bootstrap-4.ru/docs/4.4/utilities/text/#text-alignment -->
                 <h3 class="alignCenter">АННА</h3>
                 <p class="card-text alignCenter">
                     Одна из лучших наших работников,показывает высокий профессиональный уровень.

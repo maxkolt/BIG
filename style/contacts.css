@@ -112,6 +112,10 @@ footer.page-footer {
     background-size: 12px 12px;
 }
 
+.photo {
+    width: 50px;
+}
+
 .page-footer::after {
     content: "";
     display: table;
