@@ -95,6 +95,10 @@ hr {
     height: 1px;
 }
 
+.photon {
+    height: 180px;
+    width: 255px;
+}
 
 .alignRight {
     display: inline-block;
@@ -219,6 +223,10 @@ footer.page-footer {
     background-repeat: repeat-x;
     background-position: 0 0, 0 0, 0 100%, 0 100%;
     background-size: 12px 12px;
+}
+
+.photo {
+    width: 50px;
 }
 
 .page-footer::after {
