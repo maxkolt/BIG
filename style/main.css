@@ -1,0 +1,124 @@
+/* ОБЩИЕ КЛАССЫ */
+.color {
+    background-color: cornflowerblue;
+}
+
+.navbar {
+    font-size: 1.1em;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.grey {
+    background: grey;
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+}
+
+/* TODO: ты дополняешь/переопределяешь существующий класс в bootstrap - лучше свои классы называть по своему,
+     чтобы избегать конфликтов имен
+     ( например .rowPaddingTop)
+*/
+.row {
+    padding-top: 30px;
+}
+
+/* TODO:
+     1) ты дополняешь/переопределяешь существующий класс в bootstrap (container)
+        лучше свои классы называть по своему, чтобы избегать конфликтов имен
+     2) лучше эти свойства разбить на разные классы.
+          ___например___:
+                         .containerTopPadding{
+                                 padding-top: 50px;
+                         }
+                         .containerFont{
+                                font-family: 'Marck Script', cursive;
+                                font-size: 150%;
+                         }
+ */
+.container {
+    padding-top: 50px;
+    font-family: 'Marck Script', cursive;
+    font-size: 150%;
+
+}
+
+/* TODO:
+        ты дополняешь/переопределяешь существующий класс в bootstrap (content)
+        лучше свои классы называть по своему, чтобы избегать конфликтов имен
+*/
+.content {
+    padding-top: 10px;
+}
+
+
+.myFont {
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif
+}
+
+.font700 {
+    font-weight: 700;
+}
+
+
+
+
+/* TODO:
+    Вынести CSS для about.html в отдельный файл about.css (не забыть его подключить в  about.html
+        пример:    <link rel="stylesheet" href="../style/about.css">
+*/
+
+
+
+
+/* TODO: Нужно выделаять в классы общие правила. */
+.blue p {
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+/* TODO: Нужно выделаять в классы общие правила. */
+.card-body img {
+    height: 500px;
+    width: 800px;
+}
+
+/* TODO: Нужно выделаять в классы общие правила. */
+.row img {
+    height: 426px;
+    width: 300px;
+}
+
+/* TODO: Нужно выделаять в классы общие правила. */
+hr {
+    border: none;
+    color: brown;
+    background-color: brown;
+    height: 1px;
+}
+
+
+.alignRight {
+    display: inline-block;
+    float: right;
+    /* TODO: margin-top: -300px - это неправильно здесь, удали */
+    margin-top: -300px;
+    margin-right: 50px;
+}
+
+.opisanie {
+    display: inline-block;
+    padding-right: 400px;
+    margin-left: 50px;
+    padding-top: 110px;
+}
