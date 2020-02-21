@@ -96,10 +96,6 @@ hr {
 }
 
 
-.sotrudnik {
-    margin-top: 30px;
-}
-
 .alignRight {
     display: inline-block;
     float: right;
@@ -113,4 +109,170 @@ hr {
     padding-right: 400px;
     margin-left: 50px;
     padding-top: 110px;
+}
+
+/* страница контакты */
+
+.contacts {
+    margin-top: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background-color: #2c3e50;
+}
+
+.main {
+    min-height: 200px;
+    padding-top: 50px;
+    color: black;
+    background-color: white;
+}
+
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.about-me {
+    min-height: 100px;
+    margin: 0 20px;
+    padding: 10px;
+    background-color: rgba(241, 196, 15, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 0 3px #cccccc;
+}
+
+.about-me::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.profile {
+    margin-top: 80px;
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    background-color: rgb(174, 231, 255);
+    border-radius: 5px;
+}
+
+.profile h1 {
+    margin: 0;
+    font-size: 1.7em;
+}
+
+.profile p {
+    margin: 0.5em 0;
+}
+
+.last-actions {
+    float: right;
+    width: 40%;
+    min-height: 100px;
+    background-color: #5565c7;
+    border: 5px solid #f1fff6;
+    box-shadow: 0 0 8px -1px #5565c7;
+}
+
+.last-actions ul {
+    margin: 0;
+    padding: 5px;
+    list-style: none;
+}
+
+.last-actions li {
+    margin-bottom: 0.5em;
+    font-size: 14px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.last-actions time {
+    display: block;
+    font-size: 15px;
+    color: #482645;
+}
+
+.posts {
+    min-height: 50px;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-shadow: 0 0 5px #cccccc;
+    text-align: center;
+    margin-bottom: 0.8em;
+}
+
+/* Footer */
+footer.page-footer {
+    min-height: 50px;
+    padding: 20px;
+    font-size: 14px;
+    color: black;
+    background-color: #4d4dc7;
+    background-image: linear-gradient(45deg, transparent 50%, white 50%),
+    linear-gradient(-45deg, transparent 50%, white 50%),
+    linear-gradient(135deg, transparent 50%, #2c3e50 50%),
+    linear-gradient(-135deg, transparent 50%, #2c3e50 50%);
+    background-repeat: repeat-x;
+    background-position: 0 0, 0 0, 0 100%, 0 100%;
+    background-size: 12px 12px;
+}
+
+.page-footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.page-footer .info {
+    float: left;
+}
+
+.page-footer .info img {
+    margin-right: 0.5em;
+    vertical-align: middle;
+    border: 2px solid white;
+    box-shadow: 0 0 4px #482645;
+    transform: rotate(-5deg);
+}
+
+.page-footer .copyright {
+    float: right;
+    padding-top: 20px;
+    font-size: 12px;
+}
+
+/*table*/
+
+.tablet {
+    padding-top: 50px;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 4px;
+    border: 2px solid black;
+}
+
+td {
+    padding: 5px;
+    padding-right: 30px;
+    border: 1px solid #ff8142;
+}
+
+th {
+    padding: 10px;
+    border: 1px solid #64e250;
+}
+
+/*registration*/
+
+.registration {
+    width: 350px;
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-family: "Arial", sans-serif;
+    color: black;
 }

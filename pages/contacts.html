@@ -1,10 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/html">
 <head>
-    <meta charset="UTF-8">
-    <title>КОНТАКТЫ</title>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="../main.css">
+
+    <!-- Обязательные мета теги -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Нож.ВУ</title>
 </head>
-<body>
+
+<header>
+    <nav class="navbar bg-dark">
+        <a href="https://github.com/maxkolt/BIG" class="navbar-brand">
+            <img class="logo" src="../img/photo3miasnik.jpg" alt="#"/>
+        </a>
+
+        <ul class="nav">
+            <li class="nav-item">
+                <a href="../index.html" class="nav-link text-white">ГЛАВНАЯ</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.html" class="nav-link">О НАС</a>
+            </li>
+            <li class="nav-item">
+                <a href="contacts.html" class="nav-link">КОНТАКТЫ</a>
+            </li>
+            <li class="nav-item">
+                <a href="works.html" class="nav-link">РАБОТЫ</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<body class="contacts">
+<main class="main">
+
+    <article class="about-me">
+        <section class="profile">
+            <table class="tablet">
+                <tr>
+                    <th rowspan="2">Браузер</th>
+                    <th colspan="2">Посещения</th>
+                </tr>
+                <tr>
+                    <th>Количество</th>
+                    <th>В процентах</th>
+                </tr>
+                <tr>
+                    <td>Mozilla Firefox</td>
+                    <td>163</td>
+                    <td>59%</td>
+                </tr>
+                <tr>
+                    <td>Google Chrome</td>
+                    <td>78</td>
+                    <td>28%</td>
+                </tr>
+                <tr>
+                    <td>Safari</td>
+                    <td>35</td>
+                    <td>13%</td>
+                </tr>
+            </table>
+        </section>
+        <aside class="last-actions">
+            <section class="registration">
+
+                <h1>Регистрация</h1>
+                <form action="https://echo.htmlacademy.ru" method="post">
+                    <label for="login">Ваш логин (email):</label><br>
+                    <input type="login" id="login-field"><br>
+
+                    <label for="password">Пароль:</label><br>
+                    <input type="password" name="password" id="password"><br>
+
+                    <label for="about-myself">Информация о себе:</label><br>
+                    <textarea name="about-myself" id="about-myself" rows="3"></textarea><br>
+
+                    <input type="checkbox" name="subscribe" id="subscribe" checked>
+                    <label for="subscribe">Подписаться на рассылку</label><br>
+
+                    <input type="submit" value="Зарегистрироваться">
+                </form>
+            </section>
+        </aside>
+    </article>
+    <section class="posts">
+        <h1>Мы всегда на связи</h1>
+        <p>Вы всегда можете связаться с нами оставив обратнуб связь. Наши сотрудники свяжуться с вами в ближайшее время
+            и выслушают все ваши полелания. Выберая НАС, вы выбервете ЛУЧШЕЕ!
+        </p>
+    </section>
+
+</main>
+<footer class="page-footer">
+    <section class="info">
+        <img src="../img/akter.jpg" width="50" alt="...">
+        Мастер нож, 12345kolt@gmail.com
+    </section>
+    <section class="copyright">
+        © 2008—2014 Max Energy
+    </section>
+</footer>
 
 </body>
-</html>
