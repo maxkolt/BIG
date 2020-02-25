@@ -1,0 +1,20 @@
+/* Table */
+
+.tablet {
+    padding-top: 50px;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 4px;
+    border: 2px solid black;
+}
+
+td {
+    padding: 5px;
+    padding-right: 30px;
+    border: 1px solid #ff8142;
+}
+
+th {
+    padding: 10px;
+    border: 1px solid #64e250;
+}

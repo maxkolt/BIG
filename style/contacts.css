@@ -95,3 +95,15 @@ main::after {
     text-align: center;
     margin-bottom: 0.8em;
 }
+
+
+/*registration*/
+
+.registration {
+    width: 350px;
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-family: "Arial", sans-serif;
+    color: black;
+}

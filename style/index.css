@@ -1,0 +1,76 @@
+/* Стили для главной страницы */
+.grey {
+    background: grey;
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+}
+
+/* TODO: ты дополняешь/переопределяешь существующий класс в bootstrap - лучше свои классы называть по своему,
+     чтобы избегать конфликтов имен
+     ( например .rowPaddingTop)
+*/
+.row {
+    padding-top: 30px;
+}
+
+/* TODO:
+     1) ты дополняешь/переопределяешь существующий класс в bootstrap (container)
+        лучше свои классы называть по своему, чтобы избегать конфликтов имен
+     2) лучше эти свойства разбить на разные классы.
+          ___например___:
+                         .containerTopPadding{
+                                 padding-top: 50px;
+                         }
+                         .containerFont{
+                                font-family: 'Marck Script', cursive;
+                                font-size: 150%;
+                         }
+ */
+.container {
+    padding-top: 50px;
+    font-family: 'Marck Script', cursive;
+    font-size: 150%;
+}
+
+.myFont {
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif
+}
+
+.font700 {
+    font-weight: 700;
+}
+
+/* TODO: Нужно выделаять в классы общие правила. */
+.blue p {
+    color: white;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+/* TODO: Нужно выделаять в классы общие правила. */
+.card-body img {
+    height: 500px;
+    width: 800px;
+}
+
+/* TODO: Нужно выделаять в классы общие правила. */
+.row img {
+    height: 426px;
+    width: 300px;
+}
+
+/* TODO: Нужно выделаять в классы общие правила. */
+hr {
+    border: none;
+    color: brown;
+    background-color: brown;
+    height: 1px;
+}
+
+.opisanie {
+    display: inline-block;
+    padding-right: 400px;
+    margin-left: 50px;
+    padding-top: 110px;
+}
