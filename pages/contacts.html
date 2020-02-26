@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<!-- FIXME:  Видишь <html> тег подсвечивается? Значит забыл добавить атрибут языка:
+        <html lang="ru">
+        ru - значит страница на русском
+        http://htmlbook.ru/html/attr/lang-->
 <html>
 <head>
     <meta charset="utf-8">
@@ -40,6 +44,7 @@
 <body class="contacts">
 <main class="main">
     <section class="about-me">
+        <!-- FIXME: section внутри aside (article вообще можно удалить, а profile класс перенести в дочерний table)-->
         <article class="profile">
             <table class="tablet">
                 <tr>
@@ -68,6 +73,7 @@
             </table>
         </article>
         <aside class="last-actions">
+<!--            FIXME: section внутри aside (section вообще можно удалить, а registration класс перенести в родительский aside)-->
             <section class="registration">
 
                 <h1>Регистрация</h1>
@@ -98,6 +104,8 @@
 
 </main>
 <footer class="page-footer info copyright">
+    <!--    TODO: прописать alt
+            http://htmlbook.ru/html/img/alt -->
         <img class="photo" src="../img/akter.jpg" alt="...">
         Мастер нож, 12345kolt@gmail.com
         © 2019—2020 Max Energy
