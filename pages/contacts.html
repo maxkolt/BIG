@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<!-- FIXME:  Видишь <html> тег подсвечивается? Значит забыл добавить атрибут языка:
+        <html lang="ru">
+        ru - значит страница на русском
+        http://htmlbook.ru/html/attr/lang-->
+<html>
 <head>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap&subset=cyrillic" rel="stylesheet">
@@ -40,7 +44,9 @@
 <body class="contacts">
 <main class="main">
     <section class="about-me">
-            <table class="tablet profile">
+        <!-- FIXME: section внутри aside (article вообще можно удалить, а profile класс перенести в дочерний table)-->
+        <article class="profile">
+            <table class="tablet">
                 <tr>
                     <th rowspan="2">Браузер</th>
                     <th colspan="2">Посещения</th>

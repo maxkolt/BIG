@@ -30,7 +30,7 @@ main::after {
     background-color: rgba(241, 196, 15, 0.1);
     border-radius: 5px;
     /*TODO - фон поменять*/
-    box-shadow: 0 0 3px #cccccc;
+    box-shadow: 0 0 3px #5565c7;
 }
 
 .about-me::after {
@@ -45,7 +45,7 @@ main::after {
     width: 50%;
     min-height: 100px;
     /*TODO - фон поменять*/
-    background-color: rgb(174, 231, 255);
+    background-color: rgb(85, 101, 199);
     border-radius: 5px;
 }
 

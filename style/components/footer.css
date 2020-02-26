@@ -15,12 +15,12 @@ footer.page-footer {
     background-size: 12px 12px;
 }
 
-.padding {
-    margin-top: 150px;
-}
-
 .photo {
     width: 50px;
+}
+
+.page-footer {
+    margin-top: 30px;
 }
 
 .page-footer::after {

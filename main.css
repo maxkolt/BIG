@@ -1,6 +1,6 @@
 /* ОБЩИЕ КЛАССЫ */
 .color {
-    background-color: cornflowerblue;
+    background-color: #bebebe;
 }
 
 .navbar {
@@ -118,3 +118,106 @@ hr {
     margin-left: 50px;
     padding-top: 110px;
 }
+
+/*about*/
+
+.white {
+    padding: 20px 0;
+}
+
+.center {
+    text-align: center;
+}
+.gap {
+    margin-bottom: 60px;
+}
+
+.section-heading hr {
+    margin: 5px auto;
+    max-width: 700px;
+}
+
+.main-title {
+    text-transform: uppercase;
+}
+
+#meet-the-team .role {
+    margin-top: 12px;
+    display: block;
+    font-size: 15px;
+}
+.portfolio-item:hover h5,.team-member:hover .team-content,.post:hover .content {
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    border-bottom: 4px solid #00b29e;
+}
+
+.team-member .btn {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+h5,h2 {
+    font-family: Lato, sans-serif;
+    font-weight: 700;
+}
+
+.btn-social {
+    border: 0;
+    color: #fff;
+    border-radius: 0;
+    display: inline-block;
+    width: 30px;
+    height: 33px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0;
+}
+
+.btn-social.btn-facebook {
+    border: 2px solid #4f7dd4;
+    color: #4f7dd4;
+}
+
+.btn-social.btn-facebook:hover {
+    background: #4f7dd4;
+}
+
+.btn-social.btn-twitter {
+    border: 2px solid #5bceff;
+    color: #5bceff;
+}
+
+.btn-social.btn-twitter:hover {
+    background: #8eddff;
+}
+
+.btn-social.btn-linkedin {
+    border: 2px solid #21a6d8;
+    color: #21a6d8;
+}
+
+.btn-social.btn-linkedin:hover {
+    background: #21a6d8;
+}
+
+.btn-social.btn-google-plus {
+    border: 2px solid #dc422b;
+    color: #dc422b;
+}
+
+.btn-social.btn-google-plus:hover {
+    background: #dc422b;
+}
+
+.btn-social:hover {
+    color: #fff;
+}
+
+.white {
+    padding: 20px 0;
+}
+
