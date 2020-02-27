@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <title>Нож.ВУ</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap&subset=cyrillic" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Marck+Script&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="../main.css">
     <link rel="stylesheet" href="../style/components/footer.css">
     <link rel="stylesheet" href="../style/components/tablica.css">
+    <link rel="stylesheet" href="../style/about.css">
 
-
-    <!-- Обязательные мета теги -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Нож.ВУ</title>
+    <!-- Шрифт иконок -->
+    <!--    TODO: почитать как подключить иконки (font awesome): https://kostyakhmelev.ru/dizajn/font-awesome.html-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <header>
@@ -38,10 +40,13 @@
     </nav>
 </header>
 
-
+<!-- TODO - class="color" перенести в другой тег так, чтобы как в index.html полоса (блок) серой чередовалась с белой
+        в body обычно не пишут классы, в main тоже-->
 <body class="color">
 <main>
+    <!--        TODO - section слишком большой - он дублирует у тебя фунционал <main>. Разбить <main> на несколько <section> (белый, потом серый)-->
     <section id="about-us" class="white">
+        <!--        TODO - лишний div (class="container" перенести в section-->
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -52,6 +57,8 @@
                 </div>
             </div>
             <div class="row">
+                <!--        TODO - что будет, если заменить свой класс alignCenter на класс из бутсрап center как в div выше?-->
+                <!--    TODO: классы (col-md-offset-1) что делают? Удалить? Не добавляем лишние классы!-->
                 <div class="col-md-12 col-md-offset-1 fade-up alignCenter">
                     <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
                         nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
@@ -78,6 +85,7 @@
             <div id="meet-the-team" class="row">
                 <div class="col-md-3 col-xs-6">
                     <div class="center team-member">
+                        <!--    TODO: прописать alt="..." Запомни: где тег img - там должен быть атрибут alt-->
                         <img class="img-responsive img-thumbnail bounce-in" src="../img/aktrisa11.jpg"/>
                         <div class="team-content fade-up">
                             <h5>Daniel Jones<small class="role muted">Web Design</small></h5>
@@ -94,12 +102,17 @@
 
                 <div class="col-md-3 col-xs-6">
                     <div class="center team-member">
+                        <!--    TODO: прописать alt="..."-->
+                        <!--    TODO: классы (img-responsive  bounce-in) что делают? Удалить? Не добавляем лишние классы!-->
                         <img class="img-responsive img-thumbnail bounce-in" src="../img/akter2.jpg"/>
+                        <!--    TODO: классы (team-content  fade-up) что делают? Удалить? Не добавляем лишние классы!-->
                         <div class="team-content fade-up">
+                            <!--    TODO: классы (muted) что делают? Удалить? Не добавляем лишние классы!-->
                             <h5>John Smith<small class="role muted">Marketing Director</small></h5>
                             <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched
                                 interested insensible am be prosperous reasonably it. In either so spring wished.
                                 Melancholy way she boisterous use.</p>
+                            <!--    TODO: какие-то странные переносы: </a> <a  -- почему 2 ссылки на одной строке?-->
                             <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a
                                 class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a
                                 class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a
@@ -109,6 +122,11 @@
                 </div>
                 <div class="col-md-3 col-xs-6">
                     <div class="center team-member">
+                        <!--    TODO: прописать alt="..."
+                                    Атрибут alt устанавливает альтернативный текст для изображений.
+                                    Такой текст позволяет получить текстовую информацию о рисунке при отключенной в браузере загрузке изображений.
+                                    Поскольку загрузка изображений происходит после получения браузером информации о нем, то замещающий рисунок текст появляется раньше.
+                                    А уже по мере загрузки текст будет сменяться изображением.-->
                         <img class="img-responsive img-thumbnail bounce-in" src="../img/aktrisa2.jpg"/>
                         <div class="team-content fade-up">
                             <h5>Dave Gorman<small class="role muted">Web Design</small></h5>
@@ -122,22 +140,28 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-md-3 col-xs-6">
                     <div class="center team-member">
-                        <img class="img-responsive img-thumbnail bounce-in" src="../img/akter.jpg" alt="">
+                        <img class="img-responsive img-thumbnail" src="../img/akter.jpg" alt="">
                         <div class="team-content fade-up">
                             <h5>Steve Smith<small class="role muted">Sales Assistant</small></h5>
                             <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched
                                 interested insensible am be prosperous reasonably it. In either so spring wished.
                                 Melancholy way she boisterous use.</p>
-                            <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a
-                                class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a
-                                class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a
-                                class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+
+                            <a class="btn btn-social btn-facebook" href="#">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a>
+                            <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a>
+                            <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
                         </div>
                     </div>
                 </div>
-            </div><!--/#meet-the-team-->
+
+            </div>
+<!--            TODO: что за дивы?-->
             <div class="gap"></div>
             <div class="gap"></div>
         </div>
