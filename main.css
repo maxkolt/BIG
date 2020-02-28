@@ -3,8 +3,8 @@
 /* TODO: ПОПРАВЬ ВСЕ ТУДУШКИ*/
 /* TODO: ПОПРАВЬ ВСЕ ТУДУШКИ*/
 
-.color {
-    background-color: #bebebe;
+main {
+    color: #6b6b6b;
 }
 
 .navbar {
@@ -105,22 +105,6 @@ hr {
     color: brown;
     background-color: brown;
     height: 1px;
-}
-
-
-.alignRight {
-    display: inline-block;
-    float: right;
-    /* TODO: margin-top: -300px - это неправильно здесь, удали */
-    margin-top: -300px;
-    margin-right: 50px;
-}
-
-.opisanie {
-    display: inline-block;
-    padding-right: 400px;
-    margin-left: 50px;
-    padding-top: 110px;
 }
 
 /* TODO: ПОПРАВЬ ВСЕ ТУДУШКИ*/

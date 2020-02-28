@@ -42,137 +42,118 @@
 
 <!-- TODO - class="color" перенести в другой тег так, чтобы как в index.html полоса (блок) серой чередовалась с белой
         в body обычно не пишут классы, в main тоже-->
-<body class="color">
+<body>
 <main>
-    <!--        TODO - section слишком большой - он дублирует у тебя фунционал <main>. Разбить <main> на несколько <section> (белый, потом серый)-->
-    <section id="about-us" class="white">
-        <!--        TODO - лишний div (class="container" перенести в section-->
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="center gap fade-down section-heading">
-                        <h2 class="main-title">A Little About Us</h2>
-                        <hr>
-                    </div>
+
+    <section id="about-us" class="white container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="center gap fade-down section-heading">
+                    <h2 class="main-title">A Little About Us</h2>
+                    <hr>
                 </div>
             </div>
-            <div class="row">
-                <!--        TODO - что будет, если заменить свой класс alignCenter на класс из бутсрап center как в div выше?-->
-                <!--    TODO: классы (col-md-offset-1) что делают? Удалить? Не добавляем лишние классы!-->
-                <div class="col-md-12 col-md-offset-1 fade-up alignCenter">
-                    <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
-                        nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
-                        cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-                        ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu
-                        ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac
-                        urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi.
-                        Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris
-                        egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
-                </div>
-                <div class="col-md-4 fade-up">
-
-                </div>
-            </div>
-
-            <div class="gap"></div>
-            <div class="center gap fade-down section-heading">
-                <h2 class="main-title">Meet The Team</h2>
-                <hr>
-                <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-            </div>
-            <div class="gap"></div>
-
-            <div id="meet-the-team" class="row">
-                <div class="col-md-3 col-xs-6">
-                    <div class="center team-member">
-                        <!--    TODO: прописать alt="..." Запомни: где тег img - там должен быть атрибут alt-->
-                        <img class="img-responsive img-thumbnail bounce-in" src="../img/aktrisa11.jpg"/>
-                        <div class="team-content fade-up">
-                            <h5>Daniel Jones<small class="role muted">Web Design</small></h5>
-                            <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched
-                                interested insensible am be prosperous reasonably it. In either so spring wished.
-                                Melancholy way she boisterous use.</p>
-                            <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a
-                                class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a
-                                class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a
-                                class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-xs-6">
-                    <div class="center team-member">
-                        <!--    TODO: прописать alt="..."-->
-                        <!--    TODO: классы (img-responsive  bounce-in) что делают? Удалить? Не добавляем лишние классы!-->
-                        <img class="img-responsive img-thumbnail bounce-in" src="../img/akter2.jpg"/>
-                        <!--    TODO: классы (team-content  fade-up) что делают? Удалить? Не добавляем лишние классы!-->
-                        <div class="team-content fade-up">
-                            <!--    TODO: классы (muted) что делают? Удалить? Не добавляем лишние классы!-->
-                            <h5>John Smith<small class="role muted">Marketing Director</small></h5>
-                            <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched
-                                interested insensible am be prosperous reasonably it. In either so spring wished.
-                                Melancholy way she boisterous use.</p>
-                            <!--    TODO: какие-то странные переносы: </a> <a  -- почему 2 ссылки на одной строке?-->
-                            <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a
-                                class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a
-                                class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a
-                                class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 col-xs-6">
-                    <div class="center team-member">
-                        <!--    TODO: прописать alt="..."
-                                    Атрибут alt устанавливает альтернативный текст для изображений.
-                                    Такой текст позволяет получить текстовую информацию о рисунке при отключенной в браузере загрузке изображений.
-                                    Поскольку загрузка изображений происходит после получения браузером информации о нем, то замещающий рисунок текст появляется раньше.
-                                    А уже по мере загрузки текст будет сменяться изображением.-->
-                        <img class="img-responsive img-thumbnail bounce-in" src="../img/aktrisa2.jpg"/>
-                        <div class="team-content fade-up">
-                            <h5>Dave Gorman<small class="role muted">Web Design</small></h5>
-                            <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched
-                                interested insensible am be prosperous reasonably it. In either so spring wished.
-                                Melancholy way she boisterous use.</p>
-                            <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a
-                                class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a
-                                class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a
-                                class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-3 col-xs-6">
-                    <div class="center team-member">
-                        <img class="img-responsive img-thumbnail" src="../img/akter.jpg" alt="">
-                        <div class="team-content fade-up">
-                            <h5>Steve Smith<small class="role muted">Sales Assistant</small></h5>
-                            <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched
-                                interested insensible am be prosperous reasonably it. In either so spring wished.
-                                Melancholy way she boisterous use.</p>
-
-                            <a class="btn btn-social btn-facebook" href="#">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                            <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a>
-                            <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a>
-                            <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-<!--            TODO: что за дивы?-->
-            <div class="gap"></div>
-            <div class="gap"></div>
         </div>
+
+        <section class="row">
+            <div class="col-md-12 alignCenter">
+                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+                    nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
+                    cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
+                    ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu
+                    ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac
+                    urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi.
+                    Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris
+                    egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+            </div>
+            <div class="col-md-4">
+            </div>
+        </section>
+
+
+        <div class="gap"></div>
+        <section class="center section-heading">
+            <h2 class="main-title">Meet The Team</h2>
+            <hr>
+            <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
+        </section>
+        <div class="gap"></div>
+
+        <section id="meet-the-team" class="row">
+            <div class="col-md-3 col-xs-6">
+                <div class="center team-member">
+                    <img class="img-thumbnail" src="../img/aktrisa11.jpg" alt="фото актера"/>
+                    <div class="team-content fade-up">
+                        <h5>Daniel Jones<small class="role muted">Web Design</small></h5>
+                        <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched
+                            interested insensible am be prosperous reasonably it. In either so spring wished.
+                            Melancholy way she boisterous use.</p>
+                        <a class="btn btn-social btn-facebook" href="#"><em class="fa fa-facebook"></em></a>
+                        <a class="btn btn-social btn-google-plus" href="#"><em class="fa fa-google-plus"></em></a>
+                        <a class="btn btn-social btn-twitter" href="#"><em class="fa fa-twitter"></em></a>
+                        <a class="btn btn-social btn-linkedin" href="#"><em class="fa fa-linkedin"></em></a>
+                    </div>
+                </div>
+            </div>
+
+            <section class="col-md-3 col-xs-6">
+                <div class="center team-member">
+                    <img class="img-thumbnail" src="../img/akter2.jpg" alt="фото актера"/>
+                    <div class="team-content">
+                        <h5>John Smith<small class="role">Marketing Director</small></h5>
+                        <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched
+                            interested insensible am be prosperous reasonably it. In either so spring wished.
+                            Melancholy way she boisterous use.</p>
+                        <a class="btn btn-social btn-facebook" href="#"><em class="fa fa-facebook"></em></a>
+                        <a class="btn btn-social btn-google-plus" href="#"><em class="fa fa-google-plus"></em></a>
+                        <a class="btn btn-social btn-twitter" href="#"><em class="fa fa-twitter"></em></a>
+                        <a class="btn btn-social btn-linkedin" href="#"><em class="fa fa-linkedin"></em></a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="col-md-3 col-xs-6">
+                <div class="center team-member">
+                    <img class="img-thumbnail" src="../img/aktrisa2.jpg" alt="фото актера"/>
+                    <div class="team-content">
+                        <h5>Dave Gorman<small class="role muted">Web Design</small></h5>
+                        <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched
+                            interested insensible am be prosperous reasonably it. In either so spring wished.
+                            Melancholy way she boisterous use.</p>
+                        <a class="btn btn-social btn-facebook" href="#"><em class="fa fa-facebook"></em></a>
+                        <a class="btn btn-social btn-google-plus" href="#"><em class="fa fa-google-plus"></em></a>
+                        <a class="btn btn-social btn-twitter" href="#"><em class="fa fa-twitter"></em></a>
+                        <a class="btn btn-social btn-linkedin" href="#"><em class="fa fa-linkedin"></em></a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="col-md-3 col-xs-6">
+                <div class="center team-member">
+                    <img class="img-responsive img-thumbnail" src="../img/akter.jpg" alt="фото актера"/>
+                    <div class="team-content">
+                        <h5>Steve Smith<small class="role muted">Sales Assistant</small></h5>
+                        <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched
+                            interested insensible am be prosperous reasonably it. In either so spring wished.
+                            Melancholy way she boisterous use.</p>
+
+                        <a class="btn btn-social btn-facebook" href="#">
+                            <em class="fa fa-facebook"></em></a>
+                        <a class="btn btn-social btn-google-plus" href="#"><em class="fa fa-google-plus"></em></a>
+                        <a class="btn btn-social btn-twitter" href="#"><em class="fa fa-twitter"></em></a>
+                        <a class="btn btn-social btn-linkedin" href="#"><em class="fa fa-linkedin"></em></a>
+                    </div>
+                </div>
+            </section>
+        </section>
     </section>
 
 
 </main>
-<footer class="page-footer padding info ">
+<footer class="page-footer info">
     <img class="photo" src="../img/akter.jpg" alt="фото актера">
     Мастер нож, 12345kolt@gmail.com
-    © 2019—2020 Max Energy
+    <p class="copyright"> © 2019—2020 Max Energy</p>
 </footer>
 
 </body>

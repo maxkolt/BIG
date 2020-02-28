@@ -31,6 +31,7 @@ footer.page-footer {
 
 .page-footer .info {
     float: left;
+
 }
 
 .page-footer .info img {
@@ -39,10 +40,10 @@ footer.page-footer {
     border: 2px solid white;
     box-shadow: 0 0 4px #482645;
     transform: rotate(-5deg);
+
 }
 
 .page-footer .copyright {
     float: right;
-    padding-top: 20px;
     font-size: 12px;
 }
