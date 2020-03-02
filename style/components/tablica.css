@@ -1,6 +1,7 @@
 /* Table */
 
 .tablet {
+    display: inline-table;
     padding-top: 50px;
     width: 100%;
     border-collapse: collapse;

@@ -40,10 +40,10 @@ main::after {
 }
 
 .profile {
+    display: inline-table;
     margin-top: 80px;
     float: left;
     width: 50%;
-    min-height: 100px;
     /*TODO - фон поменять*/
     background-color: rgb(85, 101, 199);
     border-radius: 5px;
