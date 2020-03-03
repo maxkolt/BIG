@@ -9,7 +9,10 @@ main {
 .white {
     padding: 20px 0;
 }
-/*TODO: удалить (уже есть в бутсрап)*/
+
+/*TODO: удалить (уже есть в бутсрап и в main.css) https://bootstrap-4.ru/docs/4.4/components/media-object/#alignment
+   НАЙТИ во всем проекте: CTRL+SHIFT+F - не повторяемся
+   */
 .center {
     text-align: center;
 }

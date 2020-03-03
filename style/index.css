@@ -21,12 +21,12 @@
     font-weight: 700;
 }
 
-/*TODO: стремный класс. Удалить, сделать фото адаптивными. Читай доку бутсрап */
+/*TODO: стремный класс. Удалить, сделать фото адаптивными. Читай доку бутсрап  https://bootstrap-4.ru/docs/4.4/content/images/#responsive-images*/
 .img {
     height: 500px;
     width: 800px;
 }
-/*TODO: стремный класс. Удалить, сделать фото адаптивными. Читай доку бутсрап */
+/*TODO: стремный класс. Удалить, сделать фото адаптивными. Читай доку бутсрап https://bootstrap-4.ru/docs/4.4/content/images/#responsive-images*/
 .img1 {
     height: 426px;
     width: 300px;
