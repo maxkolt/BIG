@@ -1,12 +1,18 @@
 /* ОБЩИЕ КЛАССЫ */
-/* TODO: ПОПРАВЬ ВСЕ ТУДУШКИ*/
-/* TODO: ПОПРАВЬ ВСЕ ТУДУШКИ*/
-/* TODO: ПОПРАВЬ ВСЕ ТУДУШКИ*/
 
+
+/* TODO: УДАЛИТЬ*/
+/*
 main {
-    color: #6b6b6b;
+  color: #6b6b6b;
 }
+*/
 
+.grey {
+    background: grey;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
 .center {
     text-align: center;
 }
@@ -20,8 +26,7 @@ main {
     height: 50px;
     border-radius: 50%;
 }
-/* TODO: УДАЛИТЬ
-*/
+/* TODO: УДАЛИТЬ*/
 /*.grey {*/
 /*    background: grey;*/
 /*    padding-top: 35px;*/

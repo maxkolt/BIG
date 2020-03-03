@@ -1,9 +1,5 @@
 /* Стили для главной страницы */
-.grey {
-    background: grey;
-    padding-top: 35px;
-    padding-bottom: 35px;
-}
+
 
 /*TODO: имя класса через дефис- row-padding-top
    CTRL+SHIFT+R - не забыть заменить везде на row-padding-top после переименования
