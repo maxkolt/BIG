@@ -7,6 +7,10 @@ main {
     color: #6b6b6b;
 }
 
+.center {
+    text-align: center;
+}
+
 .navbar {
     font-size: 1.1em;
 }
@@ -30,7 +34,7 @@ main {
      ( например .rowPaddingTop)
 */
 .row {
-    padding-top: 30px;
+    padding-top: 20px;
 }
 
 /* TODO:

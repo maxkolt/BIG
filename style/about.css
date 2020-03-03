@@ -1,6 +1,10 @@
 
 /*about*/
 
+main {
+    color: #f7fbfc;
+}
+
 .white {
     padding: 20px 0;
 }
@@ -8,6 +12,7 @@
 .center {
     text-align: center;
 }
+
 .gap {
     margin-bottom: 60px;
 }
@@ -58,6 +63,7 @@ h5,h2 {
 }
 
 .btn-social.btn-facebook {
+    padding-right: 25px;
     border: 2px solid #4f7dd4;
     color: #4f7dd4;
 }
@@ -67,6 +73,7 @@ h5,h2 {
 }
 
 .btn-social.btn-twitter {
+    padding-right: 25px;
     border: 2px solid #5bceff;
     color: #5bceff;
 }
@@ -76,6 +83,7 @@ h5,h2 {
 }
 
 .btn-social.btn-linkedin {
+    padding-right: 25px;
     border: 2px solid #21a6d8;
     color: #21a6d8;
 }
@@ -85,6 +93,7 @@ h5,h2 {
 }
 
 .btn-social.btn-google-plus {
+    padding-right: 25px;
     border: 2px solid #dc422b;
     color: #dc422b;
 }

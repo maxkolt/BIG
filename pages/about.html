@@ -16,9 +16,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <!-- Шрифт иконок -->
-    <!--    TODO: почитать как подключить иконки (font awesome): https://kostyakhmelev.ru/dizajn/font-awesome.html-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
+
+<body>
 
 <header>
     <nav class="navbar bg-dark">
@@ -40,112 +41,109 @@
     </nav>
 </header>
 
+<main>
 
-<body>
-<main class="container">
-<!--TODO: посмотреть что было изменено здесь (через ALT+9 & CTRL+D)
-        пишем как можно меньше лишних тегов -->
+    <section class="container">
+        <div class="row grey">
+            <div class="col center gap fade-down section-heading">
+                <h2 class="main-title">A Little About Us</h2>
+                <hr>
+            </div>
 
-    <section class="row grey">
-
-        <div class="col-md-12 center gap fade-down section-heading">
-            <h2 class="main-title">A Little About Us</h2>
-            <hr>
+            <div class="row center">
+                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
+                    nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
+                    cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
+                    ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu
+                    ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac
+                    urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi.
+                    Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris
+                    egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+            </div>
         </div>
+    </section>
 
-        <div class="row col-md-12 center">
-            <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
-                nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
-                cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-                ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu
-                ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac
-                urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi.
-                Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris
-                egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
+    <section class="container center">
+        <div class="row grey">
+            <div class="col center gap fade-down section-heading">
+                <h2>Meet The Team</h2>
+                <hr>
+                <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
+            </div>
         </div>
-
-        <!--       TODO - что за див?-->
-        <div class="col-md-4"></div>
-
     </section>
 
 
-    <div class="gap"></div>
-    <!--       TODO - row (строка) класс забыл в section и class="col-md-12 в <h2> и <p>" -->
-    <section class="center section-heading">
-        <h2 class="main-title">Meet The Team</h2>
-        <hr>
-        <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-    </section>
+    <section class="container">
+        <div class="row grey">
+            <div class="col-md-3 col-xs-6">
+                <div class="center team-member">
+                    <img class="img-thumbnail" src="../img/aktrisa11.jpg" alt="фото актера"/>
+                    <div class="team-content fade-up">
+                        <h5>Daniel Jones<small class="role muted">Web Design</small></h5>
+                        <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched
+                            interested insensible am be prosperous reasonably it. In either so spring wished.
+                            Melancholy way she boisterous use.</p>
+                        <a class="btn btn-social btn-facebook" href="#"><em class="fa fa-facebook"></em></a>
+                        <a class="btn btn-social btn-google-plus" href="#"><em class="fa fa-google-plus"></em></a>
+                        <a class="btn btn-social btn-twitter" href="#"><em class="fa fa-twitter"></em></a>
+                        <a class="btn btn-social btn-linkedin" href="#"><em class="fa fa-linkedin"></em></a>
+                    </div>
+                </div>
+            </div>
 
-    <div class="gap"></div>
+            <div class="col-md-3 col-xs-6">
+                <div class="center team-member">
+                    <img class="img-thumbnail" src="../img/akter2.jpg" alt="фото актера"/>
+                    <div class="team-content">
+                        <h5>John Smith<small class="role">Marketing Director</small></h5>
+                        <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched
+                            interested insensible am be prosperous reasonably it. In either so spring wished.
+                            Melancholy way she boisterous use.</p>
 
-    <section id="meet-the-team" class="row">
-        <div class="col-md-3 col-xs-6">
-            <div class="center team-member">
-                <img class="img-thumbnail" src="../img/aktrisa11.jpg" alt="фото актера"/>
-                <div class="team-content fade-up">
-                    <h5>Daniel Jones<small class="role muted">Web Design</small></h5>
-                    <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched
-                        interested insensible am be prosperous reasonably it. In either so spring wished.
-                        Melancholy way she boisterous use.</p>
-                    <a class="btn btn-social btn-facebook" href="#"><em class="fa fa-facebook"></em></a>
-                    <a class="btn btn-social btn-google-plus" href="#"><em class="fa fa-google-plus"></em></a>
-                    <a class="btn btn-social btn-twitter" href="#"><em class="fa fa-twitter"></em></a>
-                    <a class="btn btn-social btn-linkedin" href="#"><em class="fa fa-linkedin"></em></a>
+                        <a class="btn btn-social btn-facebook" href="#"><em class="fa fa-facebook"></em></a>
+                        <a class="btn btn-social btn-google-plus" href="#"><em class="fa fa-google-plus"></em></a>
+                        <a class="btn btn-social btn-twitter" href="#"><em class="fa fa-twitter"></em></a>
+                        <a class="btn btn-social btn-linkedin" href="#"><em class="fa fa-linkedin"></em></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-xs-6">
+                <div class="center team-member">
+                    <img class="img-thumbnail" src="../img/aktrisa2.jpg" alt="фото актера"/>
+                    <div class="team-content">
+                        <h5>Dave Gorman<small class="role muted">Web Design</small></h5>
+                        <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched
+                            interested insensible am be prosperous reasonably it. In either so spring wished.
+                            Melancholy way she boisterous use.</p>
+
+                        <a class="btn btn-social btn-facebook" href="#"><em class="fa fa-facebook"></em></a>
+                        <a class="btn btn-social btn-google-plus" href="#"><em class="fa fa-google-plus"></em></a>
+                        <a class="btn btn-social btn-twitter" href="#"><em class="fa fa-twitter"></em></a>
+                        <a class="btn btn-social btn-linkedin" href="#"><em class="fa fa-linkedin"></em></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-xs-6">
+                <div class="center team-member">
+                    <img class="img-responsive img-thumbnail" src="../img/akter.jpg" alt="фото актера"/>
+                    <div class="team-content">
+                        <h5>Steve Smith<small class="role muted">Sales Assistant</small></h5>
+                        <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched
+                            interested insensible am be prosperous reasonably it. In either so spring wished.
+                            Melancholy way she boisterous use.</p>
+
+                        <a class="btn btn-social btn-facebook" href="#">
+                            <em class="fa fa-facebook"></em></a>
+                        <a class="btn btn-social btn-google-plus" href="#"><em class="fa fa-google-plus"></em></a>
+                        <a class="btn btn-social btn-twitter" href="#"><em class="fa fa-twitter"></em></a>
+                        <a class="btn btn-social btn-linkedin" href="#"><em class="fa fa-linkedin"></em></a>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <section class="col-md-3 col-xs-6">
-            <div class="center team-member">
-                <img class="img-thumbnail" src="../img/akter2.jpg" alt="фото актера"/>
-                <div class="team-content">
-                    <h5>John Smith<small class="role">Marketing Director</small></h5>
-                    <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched
-                        interested insensible am be prosperous reasonably it. In either so spring wished.
-                        Melancholy way she boisterous use.</p>
-                    <a class="btn btn-social btn-facebook" href="#"><em class="fa fa-facebook"></em></a>
-                    <a class="btn btn-social btn-google-plus" href="#"><em class="fa fa-google-plus"></em></a>
-                    <a class="btn btn-social btn-twitter" href="#"><em class="fa fa-twitter"></em></a>
-                    <a class="btn btn-social btn-linkedin" href="#"><em class="fa fa-linkedin"></em></a>
-                </div>
-            </div>
-        </section>
-
-        <section class="col-md-3 col-xs-6">
-            <div class="center team-member">
-                <img class="img-thumbnail" src="../img/aktrisa2.jpg" alt="фото актера"/>
-                <div class="team-content">
-                    <h5>Dave Gorman<small class="role muted">Web Design</small></h5>
-                    <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched
-                        interested insensible am be prosperous reasonably it. In either so spring wished.
-                        Melancholy way she boisterous use.</p>
-                    <a class="btn btn-social btn-facebook" href="#"><em class="fa fa-facebook"></em></a>
-                    <a class="btn btn-social btn-google-plus" href="#"><em class="fa fa-google-plus"></em></a>
-                    <a class="btn btn-social btn-twitter" href="#"><em class="fa fa-twitter"></em></a>
-                    <a class="btn btn-social btn-linkedin" href="#"><em class="fa fa-linkedin"></em></a>
-                </div>
-            </div>
-        </section>
-
-        <section class="col-md-3 col-xs-6">
-            <div class="center team-member">
-                <img class="img-responsive img-thumbnail" src="../img/akter.jpg" alt="фото актера"/>
-                <div class="team-content">
-                    <h5>Steve Smith<small class="role muted">Sales Assistant</small></h5>
-                    <p>Brother she add yet see minuter natural smiling article painted. Themselves at dispatched
-                        interested insensible am be prosperous reasonably it. In either so spring wished.
-                        Melancholy way she boisterous use.</p>
-
-                    <a class="btn btn-social btn-facebook" href="#">
-                        <em class="fa fa-facebook"></em></a>
-                    <a class="btn btn-social btn-google-plus" href="#"><em class="fa fa-google-plus"></em></a>
-                    <a class="btn btn-social btn-twitter" href="#"><em class="fa fa-twitter"></em></a>
-                    <a class="btn btn-social btn-linkedin" href="#"><em class="fa fa-linkedin"></em></a>
-                </div>
-            </div>
-        </section>
     </section>
 </main>
 
