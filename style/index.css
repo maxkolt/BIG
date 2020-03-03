@@ -5,14 +5,17 @@
     padding-bottom: 35px;
 }
 
+/*TODO: имя класса через дефис- row-padding-top
+   CTRL+SHIFT+R - не забыть заменить везде на row-padding-top после переименования
+   */
 .rowPaddingTop {
     padding-top: 30px;
 }
-
+/*TODO:  имя класса дефис*/
 .containerTopPadding {
     padding-top: 50px;
 }
-
+/*TODO:  имя класса через дефис*/
 .containerFont {
     font-family: 'Marck Script', cursive;
     font-size: 150%;
@@ -22,16 +25,20 @@
     font-weight: 700;
 }
 
+/*TODO: стремный класс. Удалить, сделать фото адаптивными. Читай доку бутсрап */
 .img {
     height: 500px;
     width: 800px;
 }
-
+/*TODO: стремный класс. Удалить, сделать фото адаптивными. Читай доку бутсрап */
 .img1 {
     height: 426px;
     width: 300px;
 }
 
+/*TODO: имя класса совпадает с названием тега <hr> - переименовать
+   CTRL+SHIFT+R - не забыть заменить везде после переименования
+   */
 .hr {
     border: none;
     color: brown;

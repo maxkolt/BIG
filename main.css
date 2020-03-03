@@ -20,13 +20,14 @@ main {
     height: 50px;
     border-radius: 50%;
 }
+/* TODO: УДАЛИТЬ
+*/
+/*.grey {*/
+/*    background: grey;*/
+/*    padding-top: 35px;*/
+/*    padding-bottom: 35px;*/
 
-.grey {
-    background: grey;
-    padding-top: 35px;
-    padding-bottom: 35px;
-
-}
+/*}*/
 
 /* TODO: ты дополняешь/переопределяешь существующий класс в bootstrap - лучше свои классы называть по своему,
      чтобы избегать конфликтов имен
@@ -48,33 +49,34 @@ main {
                                 font-family: 'Marck Script', cursive;
                                 font-size: 150%;
                          }
+                         УДАЛИТЬ
  */
-.container {
-    padding-top: 50px;
-    font-family: 'Marck Script', cursive;
-    font-size: 150%;
+/*.container {*/
+/*    padding-top: 50px;*/
+/*    font-family: 'Marck Script', cursive;*/
+/*    font-size: 150%;*/
 
-}
+/*}*/
 
 /* TODO:
         ты дополняешь/переопределяешь существующий класс в bootstrap (content)
         лучше свои классы называть по своему, чтобы избегать конфликтов имен
+                                 УДАЛИТЬ
 */
-.content {
-    padding-top: 10px;
-}
+/*.content {*/
+/*    padding-top: 10px;*/
+/*}*/
 
 
 .myFont {
     color: white;
     font-family: 'Ubuntu Condensed', sans-serif
 }
-
+/* TODO: УДАЛИТЬ
+*/
 .font700 {
     font-weight: 700;
 }
-
-
 
 /* TODO: Нужно выделаять в классы общие правила. */
 .blue p {
@@ -94,6 +96,7 @@ main {
     width: 300px;
 }
 
+/*TODO: не выбераем по тегам и id, а создаем класс*/
 /* TODO: Нужно выделаять в классы общие правила. */
 hr {
     border: none;
