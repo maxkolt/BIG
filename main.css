@@ -21,7 +21,6 @@ main {
     border-radius: 50%;
 }
 
-
 .grey {
     background: grey;
     padding-top: 35px;
@@ -75,11 +74,6 @@ main {
     font-weight: 700;
 }
 
-
-/* TODO:
-    Вынести CSS для about.html в отдельный файл about.css (не забыть его подключить в  about.html
-        пример:    <link rel="stylesheet" href="../style/about.css">
-*/
 
 
 /* TODO: Нужно выделаять в классы общие правила. */
