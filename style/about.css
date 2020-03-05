@@ -1,15 +1,5 @@
 /*ABOUT*/
 
-/*TODO: не выбераем по тегам и id, а создаем класс*/
-main {
-   color: #f7fbfc;
-}
-
-/*TODO (код с душком):  класс называется "белый", а делает паддинг*/
-.white {
-    padding: 20px 0;
-}
-
 /*TODO: удалить (уже есть в бутсрап и в main.css) https://bootstrap-4.ru/docs/4.4/components/media-object/#alignment
    НАЙТИ во всем проекте: CTRL+SHIFT+F - не повторяемся
    */
@@ -26,3 +16,42 @@ h5,h2 {
     font-family: Lato, sans-serif;
     font-weight: 700;
 }
+
+
+.btn-social.btn-facebook {
+    border: 2px solid #4f7dd4;
+    color: #4f7dd4;
+}
+
+.btn-social.btn-facebook:hover {
+    background: #4f7dd4;
+}
+
+.btn-social.btn-twitter {
+    border: 2px solid #5bceff;
+    color: #5bceff;
+}
+
+.btn-social.btn-twitter:hover {
+    background: #8eddff;
+}
+
+.btn-social.btn-linkedin {
+    border: 2px solid #21a6d8;
+    color: #21a6d8;
+}
+
+.btn-social.btn-linkedin:hover {
+    background: #21a6d8;
+}
+
+.btn-social.btn-google-plus {
+    border: 2px solid #dc422b;
+    color: #dc422b;
+}
+
+.btn-social.btn-google-plus:hover {
+    background: #dc422b;
+}
+
+
