@@ -36,21 +36,6 @@
 }
 
 
-/* TODO: УДАЛИТЬ*/
-
-main {
-  color: #6b6b6b;
-}
-
-
-
-/*TODO: удалить (уже есть в бутсрап и в about.css) https://bootstrap-4.ru/docs/4.4/components/media-object/#alignment*/
-
-.center {
-    text-align: center;
-}
-
-
 /* TODO:
      https://bootstrap-4.ru/docs/4.4/layout/overview/#containers
      1) ты дополняешь/переопределяешь существующий класс в bootstrap (container)
@@ -71,6 +56,7 @@ main {
     padding-top: 50px;
     font-family: 'Marck Script', cursive;
     font-size: 150%;
+
 }
 
 

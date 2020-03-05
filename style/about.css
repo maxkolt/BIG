@@ -1,22 +1,10 @@
 /*ABOUT*/
 
-/*TODO: удалить (уже есть в бутсрап и в main.css) https://bootstrap-4.ru/docs/4.4/components/media-object/#alignment
-   НАЙТИ во всем проекте: CTRL+SHIFT+F - не повторяемся
-   */
-.center {
-    text-align: center;
-}
-
 .main-title {
     text-transform: uppercase;
-}
-
-/*TODO: не выбераем по тегам и id, а создаем класс*/
-h5,h2 {
     font-family: Lato, sans-serif;
-    font-weight: 700;
+    font-weight: 400;
 }
-
 
 .btn-social.btn-facebook {
     border: 2px solid #4f7dd4;
@@ -54,4 +42,6 @@ h5,h2 {
     background: #dc422b;
 }
 
-
+.grey {
+    color: white;
+}
