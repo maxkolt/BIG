@@ -3,7 +3,6 @@
 .tablet {
     display: inline-table;
     padding-top: 50px;
-    width: 100%;
     border-collapse: collapse;
     border-spacing: 4px;
     border: 2px solid black;
@@ -12,10 +11,10 @@
 td {
     padding: 5px;
     padding-right: 30px;
-    border: 1px solid #ff8142;
+    border: 1px solid #f7fbfc;
 }
 
 th {
     padding: 10px;
-    border: 1px solid #64e250;
+    border: 1px solid #f7fbfc;
 }

@@ -40,41 +40,39 @@
     </nav>
 </header>
 
-<main class="main">
-    <section class="about-me">
-        <!-- FIXME: section внутри aside (article вообще можно удалить, а profile класс перенести в дочерний table)-->
-        <article class="profile">
-            <table class="tablet">
-                <tr>
-                    <th rowspan="2">Браузер</th>
-                    <th colspan="2">Посещения</th>
-                </tr>
-                <tr>
-                    <th>Количество</th>
-                    <th>В процентах</th>
-                </tr>
-                <tr>
-                    <td>Mozilla Firefox</td>
-                    <td>163</td>
-                    <td>59%</td>
-                </tr>
-                <tr>
-                    <td>Google Chrome</td>
-                    <td>78</td>
-                    <td>28%</td>
-                </tr>
-                <tr>
-                    <td>Safari</td>
-                    <td>35</td>
-                    <td>13%</td>
-                </tr>
-            </table>
-        </article>
+<main>
+    <section class="about-me main">
+        <table class="tablet profile">
+            <tr>
+                <th rowspan="2">Браузер</th>
+                <th colspan="2">Посещения</th>
+            </tr>
+            <tr>
+                <th>Количество</th>
+                <th>В процентах</th>
+            </tr>
+            <tr>
+                <td>Mozilla Firefox</td>
+                <td>163</td>
+                <td>59%</td>
+            </tr>
+            <tr>
+                <td>Google Chrome</td>
+                <td>78</td>
+                <td>28%</td>
+            </tr>
+            <tr>
+                <td>Safari</td>
+                <td>35</td>
+                <td>13%</td>
+            </tr>
+        </table>
+
         <aside class="last-actions registration">
-                <h1>Регистрация</h1>
-                <form action="https://echo.htmlacademy.ru" method="post">
-                    <label for="login">Ваш логин (email):</label><br>
-                    <input type="login" id="login-field"><br>
+            <h1>Регистрация</h1>
+            <form action="https://echo.htmlacademy.ru" method="post">
+                <label for="login">Ваш логин (email):</label><br>
+                <input type="login" id="login-field"><br>
 
                     <label for="password">Пароль:</label><br>
                     <input type="password" name="password" id="password"><br>
