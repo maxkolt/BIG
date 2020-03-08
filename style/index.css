@@ -1,18 +1,15 @@
 /* Стили для главной страницы */
 
 
-/*TODO: имя класса через дефис- row-padding-top
-   CTRL+SHIFT+R - не забыть заменить везде на row-padding-top после переименования
-   */
-.rowPaddingTop {
+.row-padding-top {
     padding-top: 30px;
 }
-/*TODO:  имя класса дефис*/
-.containerTopPadding {
+
+.container-top-padding {
     padding-top: 50px;
 }
-/*TODO:  имя класса через дефис*/
-.containerFont {
+
+.container-font {
     font-family: 'Marck Script', cursive;
     font-size: 150%;
 }
@@ -32,10 +29,7 @@
     width: 300px;
 }
 
-/*TODO: имя класса совпадает с названием тега <hr> - переименовать
-   CTRL+SHIFT+R - не забыть заменить везде после переименования
-   */
-.hr {
+.line {
     border: none;
     color: brown;
     background-color: brown;
