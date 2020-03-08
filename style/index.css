@@ -20,8 +20,9 @@
 
 /*TODO: стремный класс. Удалить, сделать фото адаптивными. Читай доку бутсрап  https://bootstrap-4.ru/docs/4.4/content/images/#responsive-images*/
 .img {
+    object-fit: cover;
     height: 500px;
-    width: 800px;
+    width: 100%;
 }
 /*TODO: стремный класс. Удалить, сделать фото адаптивными. Читай доку бутсрап https://bootstrap-4.ru/docs/4.4/content/images/#responsive-images*/
 .img1 {
