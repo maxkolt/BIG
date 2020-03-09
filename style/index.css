@@ -18,10 +18,10 @@
     font-weight: 700;
 }
 
-/*TODO: стремный класс. Удалить, сделать фото адаптивными. Читай доку бутсрап  https://bootstrap-4.ru/docs/4.4/content/images/#responsive-images*/
+
 .img-fluid {
     max-width: 100%;
-    height: auto;
+    height: 100px;
 }
 /*TODO: стремный класс. Удалить, сделать фото адаптивными. Читай доку бутсрап https://bootstrap-4.ru/docs/4.4/content/images/#responsive-images*/
 .img1 {
