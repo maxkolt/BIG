@@ -7,8 +7,8 @@
 }
 
 .btn-social.btn-facebook {
-    border: 2px solid #4f7dd4;
-    color: #4f7dd4;
+    border: 2px solid #2921d4;
+    color: #2921d4;
 }
 
 .btn-social.btn-facebook:hover {
@@ -25,8 +25,8 @@
 }
 
 .btn-social.btn-linkedin {
-    border: 2px solid #21a6d8;
-    color: #21a6d8;
+    border: 2px solid #2185d8;
+    color: #2185d8;
 }
 
 .btn-social.btn-linkedin:hover {
@@ -34,8 +34,8 @@
 }
 
 .btn-social.btn-google-plus {
-    border: 2px solid #dc422b;
-    color: #dc422b;
+    border: 2px solid #dc6757;
+    color: #dc6757;
 }
 
 .btn-social.btn-google-plus:hover {
@@ -52,4 +52,13 @@
     height: 200px;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+.margin-top {
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+
+.container-top-padding {
+    padding-top: 15px;
 }

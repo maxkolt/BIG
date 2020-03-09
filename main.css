@@ -38,16 +38,7 @@ hr {
     text-align: center;
 }
 
-
-.container-top-padding {
-    padding-top: 50px;
-}
-
 .container-font {
     font-family: 'Marck Script', cursive;
     font-size: 150%;
-}
-
-.content {
-    padding-top: 10px;
 }
