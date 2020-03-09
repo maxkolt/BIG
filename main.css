@@ -1,19 +1,25 @@
 /* ОБЩИЕ КЛАССЫ */
+
+hr {
+    border: none;
+    color: brown;
+    background-color: brown;
+    height: 1px;
+}
+
 .grey {
     background: grey;
     padding-top: 35px;
     padding-bottom: 35px;
 }
+
 .logo {
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
 
-/*TODO:  имя класса дефис
-      CTRL+SHIFT+R - не забыть заменить везде на my-font после переименования
-*/
-.myFont {
+.my-font {
     color: white;
     font-family: 'Ubuntu Condensed', sans-serif
 }
@@ -22,82 +28,26 @@
     font-weight: 700;
 }
 
-/* TODO: ты дополняешь/переопределяешь существующий класс в bootstrap - лучше свои классы называть по своему, чтобы избегать конфликтов имен
-     УДАЛИТЬ
-*/
-.row {
-    padding-top: 20px;
-}
 
-/* TODO: Удалить, сделать фото адаптивными. Читай доку бутсрап  https://bootstrap-4.ru/docs/4.4/content/images/#responsive-images*/
-.row img {
-    height: 426px;
-    width: 300px;
+.row .img-fluid {
+    max-width: 80%;
+    height: auto;
 }
-
 
 .center {
     text-align: center;
 }
 
 
-/* TODO:
-     https://bootstrap-4.ru/docs/4.4/layout/overview/#containers
-     1) ты дополняешь/переопределяешь существующий класс в bootstrap (container)
-        лучше свои классы называть по своему, чтобы избегать конфликтов имен
-     2) лучше эти свойства разбить на разные классы.
-          ___например___:
-                         .containerTopPadding{
-                                 padding-top: 50px;
-                         }
-                         .containerFont{
-                                font-family: 'Marck Script', cursive;
-                                font-size: 150%;
-                         }
-                         УДАЛИТЬ
- */
-
-.container {
+.container-top-padding {
     padding-top: 50px;
-    font-family: 'Marck Script', cursive;
-    font-size: 150%;
-
 }
 
-
-/* TODO: УДАЛИТЬ */
-
+.container-font {
+    font-family: 'Marck Script', cursive;
+    font-size: 150%;
+}
 
 .content {
     padding-top: 10px;
 }
-
-
-/* TODO: Нужно выделаять в классы общие правила. */
-.blue p {
-    color: white;
-    font-family: 'Ubuntu Condensed', sans-serif;
-}
-
-/* TODO: Нужно выделаять в классы общие правила. */
-.card-body img {
-    height: 500px;
-    width: 800px;
-}
-
-
-/*TODO: не выбераем по тегам и id, а создаем класс*/
-/* TODO: Нужно выделаять в классы общие правила. */
-hr {
-    border: none;
-    color: brown;
-    background-color: brown;
-    height: 1px;
-}
-
-/* TODO: ПОПРАВЬ ВСЕ ТУДУШКИ*/
-/* TODO: ПОПРАВЬ ВСЕ ТУДУШКИ*/
-/* TODO: ПОПРАВЬ ВСЕ ТУДУШКИ*/
-
-
-
