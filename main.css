@@ -1,5 +1,11 @@
 /* ОБЩИЕ КЛАССЫ */
+/* TODO: разбить файл на компоненты:
+     1) footer
+     2) header
+    Не забыть подключать новые компоненты стилей в <head> html)
+*/
 
+/* TODO: не выбираем по тегу, а создаем класс*/
 hr {
     border: none;
     color: brown;
@@ -7,6 +13,9 @@ hr {
     height: 1px;
 }
 
+/* TODO: класс называется grey (серый) а делает еще и отступы.
+        Переименовать здесь и в html
+ */
 .grey {
     background: grey;
     padding-top: 35px;
@@ -28,11 +37,17 @@ hr {
     font-weight: 700;
 }
 
+/* TODO:
+     1) ты дополняешь/переопределяешь существующий класс в bootstrap (row и img-fluid)
+        лучше свои классы называть по своему, чтобы избегать конфликтов имен
+        Создать свой класс. Например img-my (img - сокращено от image [изображение])
+     2)   Дубль в  index.css (CTRL+SHIFT+F - найди где конкретно img-fluid)
+*/
 .row .img-fluid {
     max-width: 80%;
     height: auto;
 }
-
+/*TODO: удалить (уже есть в бутсрап и в about.css) https://bootstrap-4.ru/docs/4.4/components/media-object/#alignment*/
 .center {
     text-align: center;
 }

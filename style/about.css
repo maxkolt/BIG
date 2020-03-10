@@ -1,4 +1,9 @@
-/*ABOUT*/
+/* TODO: разбить файл на компоненты:
+     1) Серый блок
+     2) Цитата с подчеркиванием (MEET THE TEAM)
+     3) Блок команды (где люди)
+     Когда файл останеться пустым - удалить (здесь и в <head> html где подключен)
+    Не забыть подключать новые компоненты стилей в <head> html)*/
 
 .main-title {
     text-transform: uppercase;
@@ -42,10 +47,16 @@
     background: #dc422b;
 }
 
+/*TODO - grey переводится как серый. white - белый. Переименовать класс в white-color*/
 .grey {
     color: white;
 }
 
+/* TODO:
+     1) ты дополняешь/переопределяешь существующий класс в bootstrap (card)
+        лучше свои классы называть по своему, чтобы избегать конфликтов имен
+        https://bootstrap-4.ru/docs/4.4/components/card/#images
+ */
 .card {
     object-fit: cover;
     width: 100%;
@@ -58,7 +69,7 @@
     margin-bottom: 40px;
     margin-top: 80px;
 }
-
+/*TODO - удалить класс? Дубль в index.css (CTRL+SHIFT+F - найди где конкретно) */
 .container-top-padding {
     padding-top: 15px;
 }
