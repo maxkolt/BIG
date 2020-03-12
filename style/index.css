@@ -21,17 +21,16 @@
     font-weight: 700;
 }
 
-/* TODO:
-     1) ты дополняешь/переопределяешь существующий класс в bootstrap (row и img-fluid)
-        лучше свои классы называть по своему, чтобы избегать конфликтов имен
-        Создать свой класс. Например img-my (img - сокращено от image [изображение])
-     2)   Дубль (CTRL+SHIFT+F - найди где конкретно img-fluid)
-     3) Тут 100%, там 80%
-*/
-.img-fluid {
+.img-my {
     max-width: 100%;
     height: auto;
 }
+
+.row .img-my{
+    max-width: 80%;
+    height: auto;
+}
+
 
 .line {
     border: none;
@@ -46,3 +45,4 @@
     margin-left: 50px;
     padding-top: 110px;
 }
+

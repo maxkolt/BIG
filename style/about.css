@@ -48,7 +48,7 @@
 }
 
 /*TODO - grey переводится как серый. white - белый. Переименовать класс в white-color*/
-.grey {
+.white-color {
     color: white;
 }
 
@@ -68,10 +68,6 @@
 .margin-top {
     margin-bottom: 40px;
     margin-top: 80px;
-}
-/*TODO - удалить класс? Дубль в index.css (CTRL+SHIFT+F - найди где конкретно) */
-.container-top-padding {
-    padding-top: 15px;
 }
 
 .pag {
