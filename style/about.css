@@ -47,17 +47,12 @@
     background: #dc422b;
 }
 
-/*TODO - grey переводится как серый. white - белый. Переименовать класс в white-color*/
+
 .white-color {
     color: white;
 }
 
-/* TODO:
-     1) ты дополняешь/переопределяешь существующий класс в bootstrap (card)
-        лучше свои классы называть по своему, чтобы избегать конфликтов имен
-        https://bootstrap-4.ru/docs/4.4/components/card/#images
- */
-.card {
+.card-fool {
     object-fit: cover;
     width: 100%;
     height: 200px;

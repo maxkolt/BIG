@@ -39,6 +39,7 @@
 
 .profile {
     display: inline-table;
+    margin-left: 20px;
     margin-top: 80px;
     float: left;
     width: 50%;
