@@ -45,6 +45,7 @@
     width: 50%;
     background-color: rgb(177, 177, 177);
     border-radius: 5px;
+
 }
 
 
@@ -68,7 +69,8 @@
 }
 
 .registration {
-    width: 350px;
+    display: inline-table;
+    width: 360px;
     padding: 10px 20px;
     font-size: 14px;
     line-height: 1.5em;
