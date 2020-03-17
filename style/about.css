@@ -5,52 +5,7 @@
      Когда файл останеться пустым - удалить (здесь и в <head> html где подключен)
     Не забыть подключать новые компоненты стилей в <head> html)*/
 
-.main-title {
-    text-transform: uppercase;
-    font-family: Lato, sans-serif;
-    font-weight: 400;
-}
 
-.btn-social.btn-facebook {
-    border: 2px solid #2921d4;
-    color: #2921d4;
-}
-
-.btn-social.btn-facebook:hover {
-    background: #4f7dd4;
-}
-
-.btn-social.btn-twitter {
-    border: 2px solid #5bceff;
-    color: #5bceff;
-}
-
-.btn-social.btn-twitter:hover {
-    background: #8eddff;
-}
-
-.btn-social.btn-linkedin {
-    border: 2px solid #2185d8;
-    color: #2185d8;
-}
-
-.btn-social.btn-linkedin:hover {
-    background: #21a6d8;
-}
-
-.btn-social.btn-google-plus {
-    border: 2px solid #dc6757;
-    color: #dc6757;
-}
-
-.btn-social.btn-google-plus:hover {
-    background: #dc422b;
-}
-
-
-.white-color {
-    color: white;
-}
 
 .card-fool {
     object-fit: cover;
