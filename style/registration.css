@@ -1,3 +1,9 @@
+/*  TODO - 2 разных класса используются для одного тега:
+     <aside class="last-actions registration">
+      внимание вопрос: какая ширина у тега <aside>
+        1) width: 40%;
+        2) width: 350px;
+          .last-actions и .registration объеденить в 1 класс и перенести в  -->*/
 
 .last-actions {
     float: right;
@@ -7,7 +13,6 @@
     border: 5px solid #f1fff6;
     box-shadow: 0 0 8px -1px #4d4dc7;
 }
-
 
 .registration {
     width: 350px;

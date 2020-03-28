@@ -1,5 +1,3 @@
-/* Table */
-
 .tablet {
     display: inline-table;
     padding-top: 50px;
@@ -8,12 +6,15 @@
     border: 2px solid black;
 }
 
+/*  TODO - селектор по тегу выберет АБСОЛЮТНО все теги на странице, где подключен
+     . Кажется это не то что нужно -->*/
 td {
     padding: 5px;
     padding-right: 30px;
     border: 1px solid #f7fbfc;
 }
 
+/*  TODO - селектор по тегу выберет АБСОЛЮТНО все теги.-->*/
 th {
     padding: 10px;
     border: 1px solid #f7fbfc;
@@ -27,6 +28,5 @@ th {
     width: 50%;
     background-color: rgb(177, 177, 177);
     border-radius: 5px;
-
 }
 
