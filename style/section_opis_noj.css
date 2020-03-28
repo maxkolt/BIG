@@ -1,10 +1,3 @@
-.line {
-    border: none;
-    color: brown;
-    background-color: brown;
-    height: 1px;
-}
-
 .opisanie {
     display: inline-block;
     padding-right: 400px;

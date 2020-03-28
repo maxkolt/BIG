@@ -16,4 +16,9 @@
     color: black;
     background-color: white;
 }
-
+.line {
+    border: none;
+    color: brown;
+    background-color: brown;
+    height: 1px;
+}
