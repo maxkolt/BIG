@@ -1,0 +1,17 @@
+.line {
+    border: none;
+    color: brown;
+    background-color: brown;
+    height: 1px;
+}
+
+.opisanie {
+    display: inline-block;
+    padding-right: 400px;
+    margin-left: 50px;
+    padding-top: 110px;
+}
+
+.container-top-padding {
+    padding-top: 50px;
+}

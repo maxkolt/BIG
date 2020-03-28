@@ -10,3 +10,16 @@
 .white-color {
     color: white;
 }
+
+
+.posts {
+    margin-bottom: 50px;
+    color: white;
+    padding: 20px;
+    background-color: #787878;
+    text-align: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+.pag {
+    padding-bottom: 20px;
+}

@@ -1,0 +1,17 @@
+
+.about-me {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: rgba(47, 35, 84, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 0 3px #7293c7;
+}
+
+.about-me::after {
+    content: "";
+    display: table;
+    clear: both;
+}

@@ -1,1 +1,19 @@
-/*TODO - сюда компоненту формы Регистрация страницы  contacts.html */
+
+.last-actions {
+    float: right;
+    width: 40%;
+    min-height: 100px;
+    background-color: #b1b1b1;
+    border: 5px solid #f1fff6;
+    box-shadow: 0 0 8px -1px #4d4dc7;
+}
+
+
+.registration {
+    width: 350px;
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 1.5em;
+    font-family: "Arial", sans-serif;
+    color: black;
+}

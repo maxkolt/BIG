@@ -1,7 +1,6 @@
 /* Table */
 
 .tablet {
-
     display: inline-table;
     padding-top: 50px;
     border-collapse: collapse;
@@ -19,3 +18,15 @@ th {
     padding: 10px;
     border: 1px solid #f7fbfc;
 }
+
+.profile {
+    display: inline-table;
+    margin-left: 20px;
+    margin-top: 80px;
+    float: left;
+    width: 50%;
+    background-color: rgb(177, 177, 177);
+    border-radius: 5px;
+
+}
+
