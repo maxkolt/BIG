@@ -1,16 +1,9 @@
 .grey {
     background: grey;
-}
-
-.grey-padding {
+    color: white;
     padding-top: 35px;
     padding-bottom: 35px;
 }
-
-.white-color {
-    color: white;
-}
-
 
 .posts {
     margin-bottom: 50px;
