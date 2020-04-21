@@ -1,26 +1,106 @@
-.margin-top {
-    margin-bottom: 40px;
-    margin-top: 80px;
+* {
+    box-sizing: border-box;
 }
 
-.contacts {
-    font-size: 100%;
-    color: white;
-    background-color: #2c3e50;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-/*TODO - странное имя для класса - не понятно что делает, объеденить с классом [about-me]*/
-.main {
-    margin-top: 50px;
-    min-height: 200px;
-    padding-top: 50px;
-    color: black;
-    background-color: white;
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #8985c2;
+    padding: 20px 10px;
+    border-radius: 7px;
 }
 
-.line {
-    border: none;
-    color: brown;
-    background-color: brown;
-    height: 1px;
+.wrap-logo {
+    display: flex;
+    align-items: center;
+
 }
+
+header a {
+    color: #39c29d;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header a:hover {
+    background-color: #25162e;
+    color: #a3c23e;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+/* Сайдбар (колонка справа) */
+
+#sidebar{ /* Блок сайдбара */
+    background-color: #ffffff; /* Фон блока */
+    width: 250px; /* Ширина блока */
+    height: 930px;
+    padding: 10px; /* Отступ текста от краёв */
+    float: right; /* Размещаем блок справа от других элементов, наплывание или обтекание справа). Если делать сайдбар слева, то значение right меняем на left */
+    border-radius: 5px; /* Закругляем углы блока */
+    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Задаём блоку тень */
+}
+.marcer{ /* Галочки маркеры меню */
+    float: left; /* Размещаем слева от текста */
+    margin: 5px 5px 0 0; /* Двигаются вверх-вправо-вниз-влево */
+}
+#content{ /* Блок контента */
+    margin-bottom: auto; /* Отступ блока статьи от блока подвала */
+    width: 676px; /* Ширина статьи */
+    padding: 70px; /* Отступ текста от краёв блока */
+    background: #fffac1; /* Фон статьи */
+    border-radius: 5px;
+    box-shadow: rgba(11, 8, 20, 0.5) 0px 1px 3px;
+}
+.left{ /* Картинка в тексте слева */
+    float: left;
+    margin: 30px 7px 7px 7px;
+}
+.right{ /* Картинка в тексте справа */
+    float: right;
+    margin: 7px 0 7px 7px;
+}
+
+
+#footer{ /* Блок подвала */
+    height:80px; /* Высота блока подвала */
+    background-color: #8985c2; /* Фон блока подвала */
+    margin-bottom: auto; /* Отступ снизу */
+    border-radius: 7px; /* Закруглённые углы */
+    box-shadow: rgba(11, 8, 20, 0.5) 0px 1px 3px; /* Тень блока */
+}
+.clear{ /* Запрет наплывания. Устанавливается для того, чтобы блок контента, при заполнении текстом и изображениями не наплывал на подвал */
+    clear: both;
+}
+.fon{ /* Номер телефона */
+    float: left; /* Разрешаем другим элементам обтекать абзац справа */
+    margin:20px 0 0 20px;
+    padding-left : 35px;
+}
+.fax{ /* Номер факса */
+    float: left;
+    margin:20px 30px 30px 80px;
+}
+.mail { /* Адрес E-mail */
+    float: left;
+    margin: 20px 0 0 60px;
+}
+
+
+
