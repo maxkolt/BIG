@@ -5,25 +5,25 @@ body{
 #wrapper{ /* Оболочка страницы сайта */
     width: 900px; /* Меняется ширина страницы */
     margin: 0 auto;
-    background: #eacc6e; /* Меняется задний фон страницы */
+    background: #eae3cc; /* Меняется задний фон страницы */
 }
 
 /* Шапка сайта */
 
-#header{
+#header {
     position: relative; /* Задаём блоку относительное позиционирование для того, чтобы затем размещать, в нём другие элементы и позиционировать относительно его границ поверх фоновой картинки и заголовка */
     height: 250px; /* Высота шапки */
-    background-color: #9a5b5b; /* Фон шапки */
+
     margin-bottom: 5px; /* Нижний отступ шапки от остального контента */
     border-radius: 5px; /* Закругляются углы блока */
-    box-shadow: rgba(64, 26, 26, 0.5) 0px 1px 3px; /* Тень. Визуально приподнимает блок над оболочкой */
+    box-shadow: rgba(95, 106, 130, 0.4) 0px 5px 5px 6px; /* Тень. Визуально приподнимает блок над оболочкой */
 }
 img{ /* Фоновая картинка в шапке */
     float: left; /* Разрешаем наплывание других элементов на картинку */
     margin: -40px 0 0 0;} /* Размещаем картинку в блоке header. 1-я и 3-я цифры - двигаем вверх-вниз, 2-я и 4-я цифры - двигаем вправо-влево */
 h1 { /* Заголовок сайта */
-    margin: 0 0 10px 40px; /* Заголовок двигается верх-вправо-вниз-влево. */
-    color: #cd3d3d; /* Цвет заголовка */
+    margin: 0 0 10px 85px; /* Заголовок двигается верх-вправо-вниз-влево. */
+    color: red; /* Цвет заголовка */
     font-size: 30px;
 }
 
@@ -50,6 +50,10 @@ h1 { /* Заголовок сайта */
     width: 250px;
 }
 
+.center {
+    text-align: center;
+    color: gray;
+}
 
 /* Сайдбар (колонка справа) */
 
@@ -89,16 +93,18 @@ h1 { /* Заголовок сайта */
 }
 /* Подвал */
 
-#footer{ /* Блок подвала */
+#footer { /* Блок подвала */
+    padding-right: 40px;
     display: flex;
     justify-content: space-between;
-    height:80px; /* Высота блока подвала */
-    background-color: #ffffff; /* Фон блока подвала */
+    height: 85px; /* Высота блока подвала */
+    background-color: #d0d8f1; /* Фон блока подвала */
     margin-bottom: 10px; /* Отступ снизу */
     border-radius: 5px; /* Закруглённые углы */
-    box-shadow: rgba(0,0,0,0.5) 0px 1px 3px; /* Тень блока */
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px; /* Тень блока */
 }
-.clear{ /* Запрет наплывания. Устанавливается для того, чтобы блок контента, при заполнении текстом и изображениями не наплывал на подвал */
+
+.clear { /* Запрет наплывания. Устанавливается для того, чтобы блок контента, при заполнении текстом и изображениями не наплывал на подвал */
     clear: both;
 }
 .fon{ /* Номер телефона */
@@ -114,6 +120,12 @@ h1 { /* Заголовок сайта */
 .mail { /* Адрес E-mail */
     float: left;
     margin: 20px 0 0 60px;
+}
+
+.park {
+    text-align: center;
+    padding-top: 20px;
+    color: #7e7ecd;
 }
 
 
@@ -214,5 +226,161 @@ h1 { /* Заголовок сайта */
         -webkit-transform: rotateY(360deg);
         -ms-transform: rotateY(360deg);
         transform: rotateY(360deg);
+    }
+}
+
+/* Блок слайдера */
+#slaid {
+    /* Задаём относительное позиционирование */
+    position: relative;
+    /*Размер и рамка блока*/
+    width: 400px;
+    height: 200px;
+   /* border: 2px solid #f3dfa4; */
+    border-radius: 5px;
+    margin-left: 172px;
+}
+/* Групповой селектор для 7-ми картинок */
+.image1,
+.image2,
+.image3,
+.image4,
+.image5,
+.image6,
+.image7 {
+    /* Позиционируем абсолютно относительно блока */
+    position: absolute;
+    top: 40px;
+    /* Делаем их полностью прозрачными */
+    opacity: 2%;
+    width: 400px;
+    height: 200px;
+}
+/* Подключаем анимацию к первой картинке */
+.image1{
+    animation: one-image 5s 1s ease alternate;
+}
+/* Анимация последующих картинок выполняется с задержкой начала необходимой для прокрутки предыдущих изображений */
+.image2 {
+    animation: two-image 8s 5s ease alternate;
+}
+.image3 {
+    animation: three-image 8s 10s ease alternate;
+}
+.image4 {
+    animation: four-image 8s 14s ease alternate;
+}
+.image5 {
+    animation: five-image 8s 18s ease alternate;
+}
+.image6 {
+    animation: six-image 8s 22s ease alternate;
+}
+
+/* Последняя картинка не прозрачная остаётся видной после прокрутки */
+.image7 {
+    position: absolute;
+    top: 40px;
+    width: 400px;
+    height: 200px;
+    animation: eight-image 26s ease alternate;
+}
+/* Анимации для первой картинки */
+@keyframes one-image{
+    /* Задаём изменение прозрачности. Здесь можно добавить вращение, перемещение из-за границ блока или появление из центра (масштабирование) */
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+/* Анимация для следующих 6-и картинок */
+@keyframes two-image{
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes three-image{
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes four-image{
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes five-image{
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes six-image{
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes seven-image{
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+/* Анимация для восьмой картинки */
+@keyframes eight-image{
+    /* остаётся прозрачной пока не прокрутятся предыдущие */
+    0% {
+        opacity: 0;
+    }
+    87% {
+        opacity: 0;
+    }
+    /*Становиться видимой в конце работы слайдера */
+    100% {
+        opacity: 1;
     }
 }
