@@ -43,11 +43,11 @@ h1 { /* Заголовок сайта */
     margin-left: 5px;
 }
 
-.gamper {
+.page {
     margin-right: 15px;
-    margin-top: 10px;
-    height: 250px;
-    width: 250px;
+    margin-top: 20px;
+    height: 226px;
+    width: 340px;
 }
 
 .center {
@@ -64,8 +64,12 @@ h1 { /* Заголовок сайта */
     float: right; /* Размещаем блок справа от других элементов, наплывание или обтекание справа). Если делать сайдбар слева, то значение right меняем на left */
     border-radius: 5px; /* Закругляем углы блока */
     box-shadow: rgba(0, 0, 0, 0.5) 0px 1px 3px; /* Задаём блоку тень */
-    height: 515px;
+    height: 596px;
 }
+.offer {
+    text-align: center;
+}
+
 .marcer{ /* Галочки маркеры меню */
     float: left; /* Размещаем слева от текста */
     margin: 5px 5px 0 0; /* Двигаются вверх-вправо-вниз-влево */
@@ -130,7 +134,6 @@ h1 { /* Заголовок сайта */
 
 
 .wrap {
-    margin-top: 45px;
     margin-left: 10px;
     -webkit-perspective: 500px;
     -ms-perspective: 500px;
@@ -383,4 +386,10 @@ h1 { /* Заголовок сайта */
     100% {
         opacity: 1;
     }
+}
+.button {
+    border-radius: 50px;
+}
+input[type="button"]:focus {
+    outline: none;
 }

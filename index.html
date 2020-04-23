@@ -29,13 +29,16 @@
         <hr width="50" color="#037FFC" size="5">
         <!--Общая информация в сайдбаре-->
         <h3>Другая информация</h3>
-        <div id="wrap" class="wrap">
+        <p class="offer">Расценки:</p>
+        <p class="offer">Услуги:</p>
+        <p class="offer">Скидки:</p>
+        <div class="wrap">
             <div class="cube">
                 <div id="cube" class="cube rotate-y">
                     <p class="face back">3р/1км</p>
                     <p class="face front">Min2часа</p>
                     <p class="face left">Грузчики</p>
-                    <p class="face rght">от30р</p>
+                    <p class="face rght">от30р/1ч</p>
                 </div>
             </div>
         </div>
@@ -43,7 +46,7 @@
     <!--Основной контент (статья)-->
     <div id="content">
         <!--Картинка слева-->
-        <img class="gamper" src="img/auto.jpg"/>
+        <img class="page" src="img/leftfoto.png"/>
         <!--Заголовок статьи-->
         <h3 class="center">КАК МЫ РАБОТАЕМ!</h3>
         <!--Текст статьи-->
@@ -64,10 +67,8 @@
             <img class="image3" src="img/ref.jpg" height="180" width="360"/><p>
             <img class="image4" src="img/capmultiimage.jpg" height="180" width="360"/>
             <img class="image5" src="img/image021.jpg" height="180" width="360"/>
-            <img class="image6" src="images/116.jpg">
-            <img class="image7" src="images/122.jpg">
-
         </div>
+        <input type="button" class="button" value="Посмотреть заново" onclick="var obj = document.getElementById ('slaid'); obj.parentNode.replaceChild (CLN, obj)">
     </div>
         <!--Запрет наплывания-->
         <div class="clear"></div>
@@ -80,4 +81,7 @@
     </div>
 </div>
 </body>
+<script>
+    var CLN; onload = function () {CLN = document.getElementById ('slaid').cloneNode (3)}
+</script>
 </html>
